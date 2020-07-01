@@ -1,0 +1,18 @@
+h1 , h2 , h3 , h4 , h5 , h6 , div , span , nav , header , footer , p , a , ul , ol , li , form , input , button{
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    color: white;
+}
+a{
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+.dropdown:focus{
+    outline: none; 
+}

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sushi</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./style/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <!-- MyStyle -->
+    <link rel="stylesheet" href="./style/my_style/css/style.css">
+    <link rel="stylesheet" href="./style/my_style/css/responsiv.css">
+    <link rel="stylesheet" href="./style/my_style/css/header.css">
+    <!-- FontAwasome css-->
+    <link rel="stylesheet" href="./style/fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="stylesheet" href="./style/fontawesome-free-5.13.1-web/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- head -->
+    <header class="sticky-top">
+        <div class="container-fluid">
+            <div class="header ">
+                <div class="header-sushi">
+                    <div id="left-place" class="left-place">
+                        <div class="humburger-menu">
+                            <img id="open-menu" class="ml-1 mr-1 icon-img " onclick="myFunctionaaa()"
+                                src="./style/my_style/img/open-menu.png" alt="">
+                            <img id="close-menu" class="ml-1 mr-1 icon-img " onclick="myFunctionaaa()"
+                                src="./style/my_style/img/close.png" alt="">
+                            <div id="salam-menu-hover" class="menu-mobile-hover">
+                                <ul class="nav ">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">SUSHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">SALADS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">SANDWISCHES AND WARPS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">TAIYAKI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">DRINKS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">ƏLAQƏ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">ÇATDIRILMA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">İŞLƏR</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">Haqqımızda</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="city-baku">
+                            <img class="ml-2 mr-2 icon-img" src="./style/my_style/img/location.png" alt="">
+                            <span class="mobile-text-n">Şəhər-Bakı</span>
+                        </div>
+                        <div class="dropdown  ml-3">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/global.png" alt="">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#"> <img class="ml-1 mr-1 icon-img"
+                                        src="./style/my_style/img/historical.png" alt="">AZ</a>
+                                <a class="dropdown-item" href="#"> <img class="ml-1 mr-1 icon-img"
+                                        src="./style/my_style/img/english.png" alt="">EN</a>
+                                <a class="dropdown-item" href="#"> <img class="ml-1 mr-1 icon-img"
+                                        src="./style/my_style/img/traditional.png" alt="">RU</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-nav-menu mobile-text-n">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Əlaqə</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Çatdırılma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">İşlər</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Haqqımızda</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-place">
+                        <a class="mob-phone" href="">
+                            <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/phone.png" alt="sushi phone">
+                        </a>
+                        <img class="ml-1 mr-1 icon-img mobile-click-search" onclick="searchq()"
+                            src="./style/my_style/img/search.png" alt="">
+                        <div id="sea">
+                            <form method="" action="" class="search-form">
+                                <input type="text" name="word" class="global-search" placeholder="Axtar...">
+                                <button type="submit" class="search-button"> <img class="ml-1 mr-1 icon-seach"
+                                        src="./style/my_style/img/search.png" alt=""></button>
+                            </form>
+                        </div>
+                        <a class="mr-2" href="">
+                            <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/person.png" alt="sushi person">
+                            <span class="mobile-text-n">Giriş</span>
+                        </a>
+                        <a class="ml-2" href="">
+                            <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/1basket.png" alt="sushi sebet">
+                            <span class="mobile-text-n">Səbət</span>
+                            <div class="shoping-product-num">2</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header -->
+    <div class="time-logo-section">
+        <div class="container-fluid">
+            <div class="time-three-section-col">
+                <div class="place-open-close-time text-center">
+                    <div class="all-day text-white">
+                        Hər gün
+                    </div>
+                    <div class="all-day-icon">
+                        <img src="./style/my_style/img/clock.png" alt="">
+                    </div>
+                    <div class="all-time text-white">
+                        10:00-23:00
+                    </div>
+                </div>
+
+                <a href="">
+                    <div class="place-logo">
+                        <img src="./style/my_style/img/english.png" alt="">
+                    </div>
+                </a>
+                <div class="place-phone-user text-center">
+                    <div class="call-do-that">
+                        <a href="" class="do-call">Zəng tələb edin</a>
+                    </div>
+                    <div class="phone-number-header text-white">
+                        (050) 505 05 05
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="nav-section">
+        <div class="container-fluid">
+            <div class="five-category-menu">
+                <ul class="menu-last">
+                    <li><a class="href-link" href=""><span> SUSHI</span></a></li>
+                    <li><a class="href-link" href=""><span>SALADS</span> </a></li>
+                    <li><a class="href-link" href=""><span> SANDWISCHES AND WARPS</span></a></li>
+                    <li><a class="href-link" href=""><span> TAIYAKI</span></a></li>
+                    <li><a class="href-link" href=""><span> DRINKS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- slider-section -->
+    <div class="slider-section">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./style/my_style/img/hv5krSjvhxtvqde1m2UD.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="./style/my_style/img/LUS5MQ24Y1T8Uugxd3bG.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="./style/my_style/img/ZBy8bsl1WM0oo8Q5GRwq.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="./style/my_style/img/ANWMMfQuXTYypar0ggVG.jpg">
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <!-- list-grid -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 my-3">
+                <h1 class="text-center small-pors most-roll">Ən çox alınan sushi, rollar və sendviçlər</h1>
+                <div class="pull-right text-right">
+                    <div class="btn-group">
+                        <button class="btn" id="list">
+                            <img class="manat-img" src="./style/my_style/img/list.png" alt="">
+                            List
+                        </button>
+                        <button class="btn" id="grid">
+                            <img class="manat-img" src="./style/my_style/img/menu (1).png" alt="">
+                            Grid
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="products" class="row view-group">
+            <div class="item col-xs-4 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/sushi.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead  ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet">Səbət</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Seth Philadelphia</h5>
+                            <small class="small-pors">1,240 g, 5 hissə.</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan ilə
+                                Filadelfiya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-xs-4 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/2.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead  ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet">Səbət</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Seth Philadelphia</h5>
+                            <small class="small-pors">1,240 g, 5 hissə.</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan ilə
+                                Filadelfiya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-xs-4 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/3.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead  ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet">Səbət</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Seth Philadelphia</h5>
+                            <small class="small-pors">1,240 g, 5 hissə.</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan ilə
+                                Filadelfiya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-xs-4 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/2.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead  ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet">Səbət</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Seth Philadelphia</h5>
+                            <small class="small-pors">1,240 g, 5 hissə.</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan ilə
+                                Filadelfiya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-xs-4 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/3.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead  ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet">Səbət</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Seth Philadelphia</h5>
+                            <small class="small-pors">1,240 g, 5 hissə.</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan ilə
+                                Filadelfiya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-xs-4 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/sushi.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead  ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet">Səbət</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Seth Philadelphia</h5>
+                            <small class="small-pors">1,240 g, 5 hissə.</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan ilə
+                                Filadelfiya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bakıda suşi və rulon tədarükü -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="bakida-sushi">
+                    <h2 class="title-sushi font-weight-bold">
+                        Bakıda suşi və rulon tədarükü
+                    </h2>
+                    <p>
+                        Özünüz üçün bir az tətil təşkil etmək üçün bir səbəb axtarmaq lazım deyil. Bakıda ləzzətli suşi
+                        və rulonların çatdırılması rahat bir nahar üçün dostları və qohumları ilə toplaşmaq üçün ideal
+                        haldır.
+                        İlk sifarişdən məmnun olmağa çalışdıq. Bakıdakı "Sushi İmperiyası" sənətkarların və sənətkarlıq
+                        pərəstişkarlarının bir qrupudur. Sizin üçün yalnız təzə məhsullardan suşi , rulon və silahkans
+                        hazırlayırıq .
+                        Ən azı bir dəfə ifamızda yeməklərin klassik və ya müəllif hüquqları ilə qorunan versiyalarından
+                        dadaraq bunu başa düşəcəksiniz.
+                    </p>
+                    <p class="font-weight-bold ">
+                        ** Məhsulun görünüşü təqdim olunan fotoşəkillərdən bir qədər fərqlənə bilər.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class=" col-md-2 col-lg-2 mx-auto ">
+                    <a href="">
+                        <div class="place-logo left-logo">
+                            <img src="./style/my_style/img/english.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-6 col-lg-4 mx-auto new-link">
+                    <div class="footer-links align-content-center flex-wrap">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="link-foot" href="#!">Bütün rulonlarda</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Qutular</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Çərəzlər</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="link-foot" href="#!">Bütün dəstlər</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Suşi</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">İçkilər</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="link-foot" href="#!">Maskalar</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Gunkalar</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Soslar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-6 col-lg-3 mx-auto">
+                    <div class="app-store-al">
+                        <a href="">
+                            <img class="app-store" src="./style/my_style/img/en_badge_web_generic.png" alt="">
+                        </a>
+                        <a href="">
+                            <img class="app-store" src="./style/my_style/img/en_badge_web_generic.png" alt="">
+                        </a>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="vakansiya" href="#!">Vakansiyalar haqqında məlumat</a>
+                            </li>
+                            <li>
+                                <a class="vakansiya" href="#!">Sayt xəritəsi Çatdırılma və ödəmə</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-6 col-lg-3 mx-auto">
+                    <div class="text-center">
+                        <div class="call-do-that mb-3">
+                            <a href="" class="do-call">Zəng tələb edin</a>
+                        </div>
+                        <div class="phone-number-header text-white">
+                            (050) 505 05 05
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href=""> Jugaad.az</a>
+        </div>
+    </footer>
+
+
+    <!-- Jquery -->
+    <script src="./style/jquery/jquery-3.4.1.min.js"></script>
+    <script src="./style/jquery/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="./style/bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+    <script src="./style/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <!-- FontAwasome js -->
+    <script src="./style/fontawesome-free-5.13.1-web/js/all.js"></script>
+    <script src="./style/fontawesome-free-5.13.1-web/js/all.min.js"></script>
+    <script src="./style/my_style/js/menu.js"></script>
+
+
+</body>
+
+</html>
