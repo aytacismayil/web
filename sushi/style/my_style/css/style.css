@@ -92,6 +92,7 @@ header{
     width: 180px;
     display: inline-block;
     padding: 0 15px;
+    border: none;
     border-radius: 2px;
     font-size: 20px;
     line-height: 36px;
@@ -166,21 +167,21 @@ img {vertical-align: middle;}
   background-color: #97f44c !important;
 }
 
-.fade {
-  -webkit-animation-name: fade;
+.fadee {
+  -webkit-animation-name: fadea;
   -webkit-animation-duration: 2s;
-  animation-name: fade;
+  animation-name: fadea;
   animation-duration: 2s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@-webkit-keyframes fadea{
+  from {opacity: 1} 
+  to {opacity: 0.6}
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@keyframes fadea{
+  from {opacity: 1} 
+  to {opacity: 0.6}
 }
 
 .view-group {
@@ -198,7 +199,7 @@ img {vertical-align: middle;}
     padding: 10px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    border-radius: 0px;
+    border-radius: 5px!important;
 }
 .item.list-group-item{
     float: none;
@@ -214,6 +215,7 @@ img {vertical-align: middle;}
 .item.list-group-item .img-event {
     float: left;
     width: 30%;
+    cursor: pointer;
 }
 .item.list-group-item .thumbnail{
     margin-bottom: 0px;
@@ -259,6 +261,7 @@ img {vertical-align: middle;}
     height: 100%;
     text-align: center;
     object-fit: contain;
+    cursor: pointer;
 }
 #products .item .card:hover img {
     transform: scale(1);
@@ -353,4 +356,38 @@ img {vertical-align: middle;}
 }
 .bakida-sushi{
     padding-bottom: 40px;
+}
+/* zeng teleb et */
+label{
+    color: #fe9522;
+}
+.form-control:focus {
+    color: #97f44c!important;
+    background-color: #fff;
+    border-color: #97f44c!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+#staticBackdropLabel{
+   color: #97f44c;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+/* giris */
+.giris-div{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: auto;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-button{
+    background-color: #97f44c;
+    color: black;
+}
+.map-div{
+   width: 100%;
+   height: 500px;
 }
