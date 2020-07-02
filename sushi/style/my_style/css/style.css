@@ -35,6 +35,8 @@ header{
     width: 24px;
     height: 24px;
     object-fit: contain;
+    animation: waving-hand 0.45s linear infinite;
+    animation-direction: alternate-reverse;
 }
 .city-baku , .search-form a{
     cursor: pointer; 
@@ -76,10 +78,13 @@ header{
 .all-day-icon img{
     width: 34px;
     height: 34px;
+    animation: waving-hand 0.45s linear infinite;
+    animation-direction: alternate-reverse;
 }
 .place-logo{
     width: 150px;
     height: 130px;
+    
 }
 .place-logo img{
     width: 100%;
@@ -91,7 +96,7 @@ header{
     color: #000 !important;
     width: 180px;
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 8px;
     border: none;
     border-radius: 2px;
     font-size: 20px;
@@ -196,7 +201,8 @@ img {vertical-align: middle;}
     margin-bottom: 30px;
     padding: 0px;
     border: 1px solid #97f44c;
-    padding: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 5px!important;
@@ -267,8 +273,8 @@ img {vertical-align: middle;}
     transform: scale(1);
 }
 .manat-img{
-    width: 24px;
-    height: 24px;
+    width: 24px!important;
+    height: 24px!important;
     object-fit: contain;
 }
 .price-cost{
@@ -390,4 +396,208 @@ label{
 .map-div{
    width: 100%;
    height: 500px;
+}
+.modal-sebet-img-div{
+    width: 100%;
+    height: 450px;
+}
+.modal-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.star-modal{
+    width: 24px;
+    height: 24px;
+}
+.modal-body-product{
+    background-color: #f6f6f6;
+    width: 35%;  
+    padding: 10px; 
+}
+.modal-body-img-p{
+    width: 65%; 
+}
+.asas{
+    display: flex;
+}
+.ela{
+    color: #fe9522;
+}
+.mehsulun-sayi-modal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;  
+}
+.modal-product-sayi-dicrise{
+    display: flex;
+    align-items: center; 
+}
+.modal-decrese , .modal-increse{
+    font-size: 40px;
+    line-height: 18px;
+    padding: 8px 0;
+    width: 36px;
+    background-color: #ff8400 !important;
+    color: #fff !important;
+}
+.modal-sayi{
+    font-size: 20px;
+    line-height: 18px;
+    padding: 8px 0;
+    width: 36px;
+    text-align: center;
+    border: none;
+    background-color: #f6f6f6;
+}
+.mehsul-sayi-title{
+    font-size: 20px;
+}
+.modal-sebete-elave-et-div{
+    width: 100%;
+}
+.sebete-elave-et-m{
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+    padding: 10px 10px;
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+
+  .cart_product_body {
+    background: #ebedec;
+    padding: 15px 15px 15px 0;
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+ .sebet-img {
+    margin: -15px 15px -15px 0;
+    width: 270px;
+    height: 165px;
+}
+.cart_products .cart_product_props {
+    text-align: center;
+    width: 20%;
+}
+.cart_product_name {
+    font-size: 20px;
+    font-weight: 500;
+}
+.count_block_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.count_block {
+    display: flex;
+}
+.count_block .btn {
+    border-radius: 0;
+    font-size: 40px;
+    line-height: 18px;
+    padding: 8px 0;
+    width: 36px;
+}
+.btn_orange {
+    background-color: #ff8400 !important;
+    color: #fff !important;
+}
+.count_block .product_count {
+    padding: 0 15px;
+    background: #fff;
+    line-height: 36px;
+    margin: 0 5px;
+    min-width: 40px;
+    text-align: center;
+}
+.btn_delete{
+   font-size: 45px;
+}
+.fa-phone , .fa-shopping-basket{
+    animation: waving-hand 0.45s linear infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes waving-hand {
+    from {
+        transform: rotate(40deg);
+    }
+    to {
+        transform: rotate(-10deg);
+    }
+}
+.list-group-image{
+    transform: scale(0.85)!important;
+    transition: 0.5s!important;
+}
+.list-group-image:hover{
+    transform: scale(1)!important;
+}
+.cemi-product-price{
+    border-bottom: 4px solid #ff8400;
+    padding-bottom: 7px;
+    font-weight: 500;
+}
+.odeme-usullari-promo label ,.odeme-usullari-all label{
+    color: black!important;
+    font-weight: 500;
+}
+.odeme-usullari-all input{
+    color: #ff8400!important;
+}
+.odeme-usullari-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kart-img{
+    object-fit: contain;
+    width: 106px;
+    height: 49px;
+}
+.odeme-first{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border: 2px solid #97f44c;
+}
+input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 20px;
+    height:20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.promo-butn{
+    background-color: #97f44c!important;
+    color: white;
+}
+.saaat-sifasis label input{
+    width: 50px;
+}
+.text-black{
+    color: #ff8400!important;
 }

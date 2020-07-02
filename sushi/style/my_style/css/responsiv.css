@@ -71,6 +71,17 @@
    .most-roll{
     font-size: 30px;
    }
+   .modal-body-product{
+    background-color: #f6f6f6;
+    width: 100%;  
+    padding: 10px; 
+   }
+   .modal-body-img-p{
+    width: 100%; 
+   }
+  .asas{
+    display: block;
+  }
 }
 @media only screen and (max-width: 425px) and (min-width: 270px){
    .place-open-close-time{
@@ -92,8 +103,21 @@
        display: none;
    }
    .indigo{
-    padding: 20px 0;
+      padding: 20px 0;
    }
+   .modal-sebet-img-div {
+      width: 100%;
+      height: 241px;
+   }
+   .mehsulun-sayi-modal {
+      margin-top: 0px; 
+   }
+   .app-store {
+      width: 130px;
+   }
+  
+  
+  
 }
 @media only screen and (max-width: 1170px) and (min-width:426px){
   .link-foot {
@@ -103,7 +127,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width:300px){
+@media only screen and (max-width: 768px) and (min-width:200px){
     .item.list-group-item .thumbnail {
         margin-bottom: 0px;
         display: flex;
@@ -114,13 +138,69 @@
         float: left;
         width: 100%;
     }
+    .price-cost p{
+        font-size: 13px;
+    }
+    .price-cost .manat-img {
+        width: 16px;
+        height: 19px;
+        object-fit: contain;
+    }
+    .thumbnail .img-event {
+       width: 100%;
+       height: 100px;
+    }
+    .list-group-item-heading{
+        font-size: 14px;
+    }
+    .list-group-item-text{
+        font-size: 12px;
+    }
     .item.list-group-item .caption {
         display: flex;
         flex-direction: row-reverse;
         width: 100%;
         margin: 0;
     }
+    .item.list-group-item {
+        margin-bottom: 19px;
+    }
+    .thumbnail {
+        margin-bottom: 19px;
+    }
     .item.list-group-item .caption .pruduct-pirce-button .price-cost p{
         font-size: 13px;
     }
+    .title-sushi {
+        font-size: 20px;
+    }
+    .bakida-sushi p{
+        font-size: 14px;
+    }
+    .bakida-sushi {
+        padding-bottom: 10px;
+    }
+    hr{
+        display: none;
+    }
+    .sebet-img{
+        margin: 0;
+        width: 270px;
+        height: 165px;
+    }
+    .cart_product_body{
+        flex-direction: column;
+        padding: 15px 15px 15px 15px;
+    }
+    .count_block , .cart_product_sum{
+        margin-top: 10px;
+    }
+    .odeme-usullari-all{
+        flex-direction: column;
+    }
   }
+   @media (min-width: 1200px){
+      .modal-xl{
+        max-width: 1014px;
+      }
+   }

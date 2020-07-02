@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sushi</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./style/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <!-- MyStyle -->
+    <link rel="stylesheet" href="./style/my_style/css/style.css">
+    <link rel="stylesheet" href="./style/my_style/css/responsiv.css">
+    <link rel="stylesheet" href="./style/my_style/css/header.css">
+    <!-- FontAwasome css-->
+    <link rel="stylesheet" href="./style/fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="stylesheet" href="./style/fontawesome-free-5.13.1-web/css/all.min.css">
+    <!-- Google Fonts -->
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body>
+    <!-- head -->
+    <header class="sticky-top">
+        <div class="container-fluid">
+            <div class="header ">
+                <div class="header-sushi">
+                    <div id="left-place" class="left-place">
+                        <div class="humburger-menu">
+                            <img id="open-menu" class="ml-1 mr-1 icon-img " onclick="myFunctionaaa()"
+                                src="./style/my_style/img/open-menu.png" alt="">
+                            <img id="close-menu" class="ml-1 mr-1 icon-img " onclick="myFunctionaaa()"
+                                src="./style/my_style/img/close.png" alt="">
+                            <div id="salam-menu-hover" class="menu-mobile-hover">
+                                <ul class="nav ">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">SUSHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">SALADS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">SANDWISCHES AND WARPS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">TAIYAKI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">DRINKS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">ƏLAQƏ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">ÇATDIRILMA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">İŞLƏR</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">Haqqımızda</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="city-baku cursor-pointer">
+                            <img class="ml-2 mr-2 icon-img" src="./style/my_style/img/location.png" alt="">
+                            <span class="mobile-text-n">Şəhər-Bakı</span>
+                        </div>
+                        <div class="dropdown  ml-3">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/global.png" alt="">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#"> <img class="ml-1 mr-1 icon-img"
+                                        src="./style/my_style/img/historical.png" alt="">AZ</a>
+                                <a class="dropdown-item" href="#"> <img class="ml-1 mr-1 icon-img"
+                                        src="./style/my_style/img/english.png" alt="">EN</a>
+                                <a class="dropdown-item" href="#"> <img class="ml-1 mr-1 icon-img"
+                                        src="./style/my_style/img/traditional.png" alt="">RU</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-nav-menu mobile-text-n">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Əlaqə</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Çatdırılma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">İşlər</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Haqqımızda</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-place">
+                        <a class="mob-phone" href="">
+                            <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/phone.png" alt="sushi phone">
+                        </a>
+                        <img class="ml-1 mr-1 icon-img mobile-click-search" onclick="searchq()"
+                            src="./style/my_style/img/search.png" alt="">
+                        <div id="sea">
+                            <form method="" action="" class="search-form">
+                                <input type="text" name="word" class="global-search" placeholder="Axtar...">
+                                <button type="submit" class="search-button"> <img class="ml-1 mr-1 icon-seach"
+                                        src="./style/my_style/img/search.png" alt=""></button>
+                            </form>
+                        </div>
+                        <a class="mr-2 cursor-pointer" data-toggle="modal" data-target="#giris">
+                            <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/person.png" alt="sushi person">
+                            <span class="mobile-text-n">Giriş</span>
+                        </a>
+                        <a class="ml-2 cursor-pointer" href="sebet.html">
+                            <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/1basket.png" alt="sushi sebet">
+                            <span class="mobile-text-n">Səbət</span>
+                            <div class="shoping-product-num">2</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header -->
+    <div class="time-logo-section">
+        <div class="container-fluid">
+            <div class="time-three-section-col">
+                <div class="place-open-close-time text-center">
+                    <div class="all-day text-white">
+                        Hər gün
+                    </div>
+
+                    <div class="all-day-icon">
+                        <img src="./style/my_style/img/clock.png" alt="">
+                    </div>
+                    <div class="all-time text-white">
+                        10:00-23:00
+                    </div>
+                </div>
+
+                <a href="">
+                    <div class="place-logo">
+                        <img src="./style/my_style/img/AG LOGO.png" alt="">
+                    </div>
+                </a>
+                <div class="place-phone-user text-center">
+                    <div class="call-do-that">
+                        <button class="do-call" data-toggle="modal" data-target="#zengsifaris"><i
+                                class="fas fa-phone mr-1"></i>Zəng tələb edin</button>
+                    </div>
+                    <div class="phone-number-header text-white">
+                        (050) 505 05 05
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="nav-section">
+        <div class="container-fluid">
+            <div class="five-category-menu">
+                <ul class="menu-last">
+                    <li><a class="href-link" href=""><span> SUSHI</span></a></li>
+                    <li><a class="href-link" href=""><span>SALADS</span> </a></li>
+                    <li><a class="href-link" href=""><span> SANDWISCHES AND WARPS</span></a></li>
+                    <li><a class="href-link" href=""><span> TAIYAKI</span></a></li>
+                    <li><a class="href-link" href=""><span> DRINKS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- slider-section -->
+    <div class="slider-section">
+        <div class="slideshow-container">
+            <div class="mySlides fadee">
+                <img src="./style/my_style/img/hv5krSjvhxtvqde1m2UD.jpg">
+            </div>
+            <div class="mySlides fadee">
+                <img src="./style/my_style/img/LUS5MQ24Y1T8Uugxd3bG.jpg">
+            </div>
+            <div class="mySlides fadee">
+                <img src="./style/my_style/img/ZBy8bsl1WM0oo8Q5GRwq.jpg">
+            </div>
+            <div class="mySlides fadee">
+                <img src="./style/my_style/img/ANWMMfQuXTYypar0ggVG.jpg">
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <!-- sebet -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1 class="sebet-title text-center mt-3">
+                    Səbət
+                </h1>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="sebet-all mt-2 mb-4">
+                    <div class="cart_product_body">
+                        <img class="sebet-img"
+                            src="https://imperya-sushi.ru/storage/products/December2019/3Ba0N00vHOiToZLDQaqk-small.jpg">
+                        <div class="cart_product_props">
+                            <div class="cart_product_name">Roll Toyuq Yeni</div>
+                            <div class="cart_product_size"> 270 q, 8 əd.</div>
+                        </div>
+                        <div class="cart_product_count count_block_container">
+                            <div class="count_block">
+                                <button class="btn btn_orange btn_minus">-</button>
+                                <span class="product_count">1</span>
+                                <button class="btn btn_orange btn_plus">+</button>
+                            </div>
+                        </div>
+                        <div class="cart_product_sum cost_picker">
+                            <div>
+                                20.00 <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="cart_product_delete">
+                            <a class="btn btn_link btn_delete">×</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="sebet-all mt-2 mb-4">
+                    <div class="cart_product_body">
+                        <img class="sebet-img"
+                            src="https://imperya-sushi.ru/storage/products/December2019/3Ba0N00vHOiToZLDQaqk-small.jpg">
+                        <div class="cart_product_props">
+                            <div class="cart_product_name">Roll Toyuq Yeni</div>
+                            <div class="cart_product_size"> 270 q, 8 əd.</div>
+                        </div>
+                        <div class="cart_product_count count_block_container">
+                            <div class="count_block">
+                                <button class="btn btn_orange btn_minus">-</button>
+                                <span class="product_count">1</span>
+                                <button class="btn btn_orange btn_plus">+</button>
+                            </div>
+                        </div>
+                        <div class="cart_product_sum cost_picker">
+                            <div>
+                                20.00 <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="cart_product_delete">
+                            <a class="btn btn_link btn_delete">×</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 mt-2">
+                <div class="text-right">
+                    <span class="cemi-product-price h5 ">
+                        Cəmi: ____ 40.00<img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- sous -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-xs-12 col-md-12 col-lg-12 ">
+                <h4 class="xardal-elave text-center mt-2 mb-4">
+                    Səbətə soya sousu, zəncəfil və ya wasabi qoymağı unutmusunuz?
+                </h4>
+            </div>
+            <div class="item  col-12 col-xs-12 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card" data-toggle="modal" data-target="#sebet">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/xar.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead ela ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet"><i class="fas fa-shopping-basket mr-2"></i> Səbət
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Soya sousu</h5>
+                            <small class="small-pors">250 ml</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Kikkoman Soy sousu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item  col-12 col-xs-12 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card" data-toggle="modal" data-target="#sebet">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/xar1.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead ela ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet"><i class="fas fa-shopping-basket mr-2"></i> Səbət
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Soya sousu</h5>
+                            <small class="small-pors">250 ml</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Kikkoman Soy sousu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item  col-12 col-xs-12 col-md-6 col-lg-4 ">
+                <div class="thumbnail ">
+                    <div class="img-event card" data-toggle="modal" data-target="#sebet">
+                        <img class="group list-group-image img-fluid" src="./style/my_style/img/xar2.jpg" alt="" />
+                    </div>
+                    <div class="caption card-body ">
+                        <div class="pruduct-pirce-button ">
+                            <div class="price-cost">
+                                <p class="lead cost-sale"> 21.00</p>
+                                <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                <p class=" lead ela ml-2">19.00</p>
+                                <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                            </div>
+                            <div class="price-c-button">
+                                <button class=" product-sebet"><i class="fas fa-shopping-basket mr-2"></i> Səbət
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="group  inner list-group-item-heading">Soya sousu</h5>
+                            <small class="small-pors">250 ml</small>
+                            <p class="group inner list-group-item-text">
+                                Klassik Kikkoman Soy sousu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="container-fluid">
+        <form action="">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 offset-md-2 offset-lg-2 offset-xl-2 col-xl-8 col-lg-8 ">
+                    <div class=" odeme-first">
+                        <h3 class="odeme-usel text-center pb-2">
+                            ÖDƏNİŞ ÜSULU
+                        </h3>
+                        <div class="odeme-usullari-all">
+                            <div class="form-check pb-3">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    ONLAYN ÖDƏ
+                                </label>
+                            </div>
+                            <div class="form-check pb-3">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    KART KURYER
+                                </label>
+                            </div>
+                            <div class="form-check pb-3">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    KURYERƏ NAĞD PUL
+                                </label>
+                            </div>
+                        </div>
+                        <div class="kard-odeme text-center">
+                            <img class="kart-img" src="./style/my_style/img/visa-mastercard.png" alt="">
+                            <img class="kart-img" src="./style/my_style/img/visa-mastercard.png" alt="">
+                            <img class="kart-img" src="./style/my_style/img/visa-mastercard.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 offset-md-2 offset-lg-2 offset-xl-2 col-xl-8 col-lg-8 ">
+                    <div class=" odeme-first">
+                        <h3 class="odeme-usel text-center pb-2">
+                            AKSİYA
+                        </h3>
+                        <div class="odeme-usullari-promo">
+                            <div class="form-check pb-3">
+                                <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Aksiyalara abunə olun
+                                </label>
+                            </div>
+                            <div class="form-check pb-3">
+                                <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    Promosyon kodu
+                                </label>
+                            </div>
+                        </div>
+                        <div class="kard-odeme">
+                            <div class="form-inline">
+                                <div class="form-group mx-sm-3 mb-2">
+                                    <input type="password" class="form-control" id="inputPassword2"
+                                        placeholder="Promo kod">
+                                </div>
+                                <button type="submit" class="btn promo-butn mb-2">Daxil et</button>
+                            </div>
+                            <small id="emailHelp" class="form-text text-muted">Bir promosyon kodu varsa onu daxil
+                                edin</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 offset-md-2 offset-lg-2 offset-xl-2 col-xl-8 col-lg-8 ">
+                    <div class=" odeme-first">
+                        <h3 class="odeme-usel text-center pb-2">
+                            ÇATDIRILMANIN VAXTI
+                        </h3>
+                        <div class="odeme-usullari-promo text-center">
+                            <div class="form-check pb-3">
+                                <input class="form-check-input" type="radio" name="exampleRad" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    16: 30- dan gec olmayaraq
+                                </label>
+                            </div>
+                            <div class="form-check saaat-sifasis pb-3">
+                                <input class="form-check-input" type="radio" name="exampleRad" id="exampleRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    Saat <input type="text" class="form-c text-center" placeholder="00">--<input
+                                        class="text-center" type="text" placeholder="00">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 offset-md-2 offset-lg-2 offset-xl-2 col-xl-8 col-lg-8 ">
+                    <div class=" odeme-first">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6col-xl-6">
+                                <h4 class="parol-title text-center">Əsas məlumat</h4>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Ad*</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Elektron poçt*</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Telefon*</label>
+                                    <input type="number" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <h4 class="parol-title text-center">Çatdırılma ünvanı</h4>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Ünvan*</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="cps text-right">
+                                    <img class="ml-2 mr-2 icon-img" src="./style/my_style/img/location.png" alt="">
+                                    <a class="text-black" href="">GPS aşkar edin</a>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Küçə/ Ev *</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Mənzil / Ofis</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Kuryer üçün şərhlər</label>
+                                    <textarea type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" name="" id="" cols="30" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="text-center pb-3">
+                        <button class="btn promo-butn">Ödəniş sifarişi</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class=" col-md-2 col-lg-2 mx-auto ">
+                    <a href="">
+                        <div class="place-logo left-logo">
+                            <img src="./style/my_style/img/AG LOGO.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-6 col-lg-4 mx-auto new-link">
+                    <div class="footer-links align-content-center flex-wrap">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="link-foot" href="#!">Bütün rulonlarda</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Qutular</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Çərəzlər</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="link-foot" href="#!">Bütün dəstlər</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Suşi</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">İçkilər</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="link-foot" href="#!">Maskalar</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Gunkalar</a>
+                            </li>
+                            <li>
+                                <a class="link-foot" href="#!">Soslar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-6 col-lg-3 mx-auto">
+                    <div class="app-store-al">
+                        <a href="">
+                            <img class="app-store" src="./style/my_style/img/en_badge_web_generic.png" alt="">
+                        </a>
+                        <a href="">
+                            <img class="app-store" src="./style/my_style/img/en_badge_web_generic.png" alt="">
+                        </a>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="vakansiya" href="#!">Vakansiyalar haqqında məlumat</a>
+                            </li>
+                            <li>
+                                <a class="vakansiya" href="#!">Sayt xəritəsi Çatdırılma və ödəmə</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-6 col-lg-3 mx-auto">
+                    <div class="text-center">
+                        <div class="call-do-that mb-3">
+                            <button class="do-call"  data-toggle="modal" data-target="#zengsifaris"><i class="fas fa-phone mr-1"></i>Zəng tələb edin</button>
+                        </div>
+                        <div class="phone-number-header text-white">
+                            (050) 505 05 05
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href=""> Jugaad.az</a>
+        </div>
+    </footer>
+
+    <!-- Jquery -->
+    <script src="./style/jquery/jquery-3.4.1.min.js"></script>
+    <script src="./style/jquery/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="./style/bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+    <script src="./style/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <!-- FontAwasome js -->
+    <script src="./style/fontawesome-free-5.13.1-web/js/all.js"></script>
+    <script src="./style/fontawesome-free-5.13.1-web/js/all.min.js"></script>
+    <script src="./style/my_style/js/menu.js"></script>
+    <script src="./style/my_style/js/modal-say.js"></script>
+
+    <!-- zeng sifaris et modal -->
+    <div class="modal animate__animated  fade animate__rotateInDownRight" id="zengsifaris" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="staticBackdropLabel">Bizimlə Əlaqə</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Adı</label>
+                            <input type="text" class="form-control" placeholder="Ad" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Email</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Mobil nömrə</label>
+                            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="+994">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="text" placeholder="Text..." class="form-control" id="exampleInputPassword1"
+                                id="" cols="30" rows="3"></textarea>
+                        </div>
+                        <div class="call-do-that text-center">
+                            <button class="do-call" data-toggle="modal" data-target="#zengsifaris">Zəng tələb
+                                edin</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Giris -->
+    <div class="modal fade animate__animated  fade animate__rotateInDownRight" id="giris" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="staticBackdropLabel">Daxil ol</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email </label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Parol</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Yadda saxla</label>
+                        </div>
+                    </div>
+                    <div class="giris-div">
+                        <button type="submit" class="btn login-button">Daxil ol</button>
+                        <div class="qeydiyyat-email">
+                            <a href="qeydiyyat.html" class="qeyddiyat-adresi mr-3">Qeydiyyat</a>
+                            <a href="reset.html" class="parol-adresi">Parolu xatırlamırsan?</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- xerite -->
+    <div class="modal fade animate__animated  fade animate__rotateInDownLeft" id="map" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="staticBackdropLabel">Bizimlə Əlaqə</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="map-div">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d194504.39111798638!2d49.773240248158565!3d40.38378667699991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbakuer%20baki!5e0!3m2!1str!2s!4v1593637702429!5m2!1str!2s"
+                            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sebet modal -->
+    <div class="modal fade animate__animated  animate__zoomInDown" id="sebet" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-bod ">
+                    <div class="">
+                        <div class="asas">
+                            <div class="modal-body-img-p">
+                                <div class="modal-sebet-img-div">
+                                    <img src="./style/my_style/img/3.jpg" alt="" class="modal-img">
+                                </div>
+
+                            </div>
+                            <div class=" modal-body-product">
+                                <div class="product-about-modal">
+                                    <div class="star-procuct mt-2 mb-3">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                    </div>
+                                    <h4 class="modal-product-name">
+                                        Seth Philadelphia
+                                    </h4>
+                                    <small class="modal-pors">
+                                        1,240 g, 5 hissə.
+                                    </small>
+                                    <p class="modal-product-about">
+                                        Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan
+                                        ilə Filadelfiya
+                                    </p>
+                                    <div class="price-cost">
+                                        <p class="lead cost-sale"> 21.00</p>
+                                        <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                        <p class=" lead ela ml-2 js-prce">19.00</p>
+                                        <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                                    </div>
+                                    <div class="mehsulun-sayi-modal neew">
+                                        <div class="mehsul-sayi-title">
+                                            Məhsul sayı
+                                        </div>
+                                        <div class="modal-product-sayi-dicrise">
+                                            <button class="btn modal-decrese" id="increase" onclick="increaseValue()"
+                                                value="Increase Value">+</button>
+
+                                            <input class="modal-sayi" type="text" id="quantity" name="quantity"
+                                                value="1" />
+                                            <button class="btn modal-increse" id="decrease" onclick="decreaseValue()"
+                                                value="Decrease Value">-</button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-sebete-elave-et-div mt-2">
+                                        <button class="sebete-elave-et-m btn">Səbətə əlavə et</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

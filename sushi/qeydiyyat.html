@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,10 +19,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+
 </head>
-
 <body>
-
     <!-- head -->
     <header class="sticky-top">
         <div class="container-fluid">
@@ -67,7 +68,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="city-baku cursor-pointer">
+                        <div class="city-baku cursor-pointer" data-toggle="modal" data-target="#map">
                             <img class="ml-2 mr-2 icon-img" src="./style/my_style/img/location.png" alt="">
                             <span class="mobile-text-n">Şəhər-Bakı</span>
                         </div>
@@ -89,7 +90,7 @@
                     <div class="header-nav-menu mobile-text-n">
                         <ul class="nav justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Əlaqə</a>
+                                <a class="nav-link " href="" data-toggle="modal" data-target="#zengsifaris">Əlaqə</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " href="#">Çatdırılma</a>
@@ -119,7 +120,7 @@
                             <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/person.png" alt="sushi person">
                             <span class="mobile-text-n">Giriş</span>
                         </a>
-                        <a class="ml-2 cursor-pointer" href="">
+                        <a class="ml-2 cursor-pointer" href="sebet.html">
                             <img class="ml-1 mr-1 icon-img" src="./style/my_style/img/1basket.png" alt="sushi sebet">
                             <span class="mobile-text-n">Səbət</span>
                             <div class="shoping-product-num">2</div>
@@ -149,14 +150,14 @@
 
                 <a href="">
                     <div class="place-logo">
-                        <img src="./style/my_style/img/english.png" alt="">
+                        <img src="./style/my_style/img/AG LOGO.png" alt="">
                     </div>
                 </a>
                 <div class="place-phone-user text-center">
                     <div class="call-do-that">
-                        <button class="do-call" data-toggle="modal" data-target="#zengsifaris">Zəng tələb edin</button>
+                        <button class="do-call"  data-toggle="modal" data-target="#zengsifaris"><i class="fas fa-phone mr-1"></i>Zəng tələb edin</button>
                     </div>
-                    <div class="phone-number-header text-white">
+                    <div class="phone-number-header text-white" >
                         (050) 505 05 05
                     </div>
                 </div>
@@ -178,7 +179,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- slider-section -->
     <div class="slider-section">
         <div class="slideshow-container">
@@ -204,7 +205,7 @@
         </div>
     </div>
 
-    <!-- Parol yenile -->
+    <!-- qeydiyyat -->
     <div class="container-fluid">
         <form action="">
             <div class="row mt-4 mb-4">
@@ -247,28 +248,17 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <h4 class="parol-title text-center">Çatdırılma ünvanı</h4>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Qəsəbə*</label>
+                                <label for="exampleInputEmail1">Ünvan*</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Küçə*</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
+                            <div class="cps text-right">
+                                <img class="ml-2 mr-2 icon-img" src="./style/my_style/img/location.png" alt="">
+                                <a class="text-black" href="">GPS aşkar edin</a>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Ev*</label>
-                                <input type="number" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Eyvan</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Mərtəbə</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                <label for="exampleInputEmail1">Küçə/ Ev *</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
                             <div class="form-group">
@@ -281,13 +271,11 @@
                                 <input type="email" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
-
                         </div>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn login-button ">Qeydiyyat</button>
+                        <button  class="btn login-button " >Qeydiyyat</button>
                     </div>
-                    
                 </div>
             </div>
         </form>
@@ -295,13 +283,13 @@
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer font-small indigo">
+     <footer class="page-footer font-small indigo">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class=" col-md-2 col-lg-2 mx-auto ">
                     <a href="">
                         <div class="place-logo left-logo">
-                            <img src="./style/my_style/img/english.png" alt="">
+                            <img src="./style/my_style/img/AG LOGO.png" alt="">
                         </div>
                     </a>
                 </div>
@@ -365,8 +353,7 @@
                 <div class="col-md-6 col-lg-3 mx-auto">
                     <div class="text-center">
                         <div class="call-do-that mb-3">
-                            <button class="do-call" data-toggle="modal" data-target="#zengsifaris">Zəng tələb
-                                edin</button>
+                            <button class="do-call"  data-toggle="modal" data-target="#zengsifaris"><i class="fas fa-phone mr-1"></i>Zəng tələb edin</button>
                         </div>
                         <div class="phone-number-header text-white">
                             (050) 505 05 05
@@ -380,7 +367,7 @@
         </div>
     </footer>
 
-    <!-- Jquery -->
+       <!-- Jquery -->
     <script src="./style/jquery/jquery-3.4.1.min.js"></script>
     <script src="./style/jquery/popper.min.js"></script>
     <!-- Bootstrap js -->
@@ -389,11 +376,13 @@
     <!-- FontAwasome js -->
     <script src="./style/fontawesome-free-5.13.1-web/js/all.js"></script>
     <script src="./style/fontawesome-free-5.13.1-web/js/all.min.js"></script>
+    <!-- my js -->
     <script src="./style/my_style/js/menu.js"></script>
 
+
     <!-- zeng sifaris et modal -->
-    <div class="modal fade " id="zengsifaris" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal animate__animated  fade animate__rotateInDownRight" id="zengsifaris" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -406,12 +395,12 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Adı</label>
-                            <input type="adi" class="form-control" placeholder="Ad" id="exampleInputEmail1"
+                            <input type="text" class="form-control" placeholder="Ad" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Email</label>
-                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Email">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Mobil nömrə</label>
@@ -432,8 +421,8 @@
     </div>
 
     <!-- Giris -->
-    <div class="modal fade " id="giris" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade animate__animated  fade animate__rotateInDownRight" id="giris" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -446,12 +435,12 @@
                     <div class="modal-body">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input type="text" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Parol</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <input type="text" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -466,6 +455,99 @@
                         </div>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- xerite -->
+    <div class="modal fade animate__animated  fade animate__rotateInDownLeft" id="map" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="staticBackdropLabel">Bizimlə Əlaqə</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="map-div">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d194504.39111798638!2d49.773240248158565!3d40.38378667699991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbakuer%20baki!5e0!3m2!1str!2s!4v1593637702429!5m2!1str!2s"
+                            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sebet modal -->
+    <div class="modal fade animate__animated  animate__zoomInDown" id="sebet" data-backdrop="static"
+        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-bod ">
+                    <div class="">
+                        <div class="asas">
+                            <div class="modal-body-img-p">
+                                <div class="modal-sebet-img-div">
+                                    <img src="./style/my_style/img/3.jpg" alt="" class="modal-img">
+                                </div>
+
+                            </div>
+                            <div class=" modal-body-product">
+                                <div class="product-about-modal">
+                                    <div class="star-procuct mt-2 mb-3">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                        <img class="star-modal" src="./style/my_style/img/star (1).png" alt="">
+                                    </div>
+                                    <h4 class="modal-product-name">
+                                        Seth Philadelphia
+                                    </h4>
+                                    <small class="modal-pors">
+                                        1,240 g, 5 hissə.
+                                    </small>
+                                    <p class="modal-product-about">
+                                        Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan
+                                        ilə Filadelfiya
+                                    </p>
+                                    <div class="price-cost">
+                                        <p class="lead cost-sale"> 21.00</p>
+                                        <img class="manat-img" src="./style/my_style/img/manat.png" alt="">
+                                        <p class=" lead ela ml-2 js-prce">19.00</p>
+                                        <img class="manat-img" src="./style/my_style/img/azerbaijan (1).png" alt="">
+                                    </div>
+                                    <div class="mehsulun-sayi-modal neew">
+                                        <div class="mehsul-sayi-title">
+                                            Məhsul sayı
+                                        </div>
+                                        <div class="modal-product-sayi-dicrise">
+                                            <button class="btn modal-decrese" id="increase" onclick="increaseValue()"
+                                                value="Increase Value">+</button>
+
+                                            <input class="modal-sayi" type="text" id="quantity" name="quantity"
+                                                value="1" />
+                                            <button class="btn modal-increse" id="decrease" onclick="decreaseValue()"
+                                                value="Decrease Value">-</button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-sebete-elave-et-div mt-2">
+                                        <button class="sebete-elave-et-m btn">Səbətə əlavə et</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
