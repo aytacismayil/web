@@ -115,7 +115,11 @@
    .app-store {
       width: 130px;
    }
-  
+   .wraps-sandiv {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    line-height: 41px;
+}
   
   
 }
