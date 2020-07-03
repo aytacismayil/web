@@ -609,7 +609,7 @@ input[type='radio']:checked:after {
     color: #ff8400!important;
 }
 .wave{
-    background: linear-gradient(to right, #69f460, #aed21e);
+    background: linear-gradient(to right, #97f44c, #97f44c);
     height: 50px;
     position: relative;
   }
