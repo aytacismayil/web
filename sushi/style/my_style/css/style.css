@@ -35,6 +35,8 @@ header{
     width: 24px;
     height: 24px;
     object-fit: contain;
+}
+.sebet-iis{
     animation: waving-hand 0.45s linear infinite;
     animation-direction: alternate-reverse;
 }
@@ -64,9 +66,8 @@ header{
     display: none;
 }
 /* header */
-.time-logo-section{
-    background: #292929;
-    height: 150px;
+.time-logo-section{  
+    height: auto;
     width: 100%;
 }
 .time-three-section-col{
@@ -82,7 +83,7 @@ header{
     animation-direction: alternate-reverse;
 }
 .place-logo{
-    width: 150px;
+    width: 210px;
     height: 130px;
     
 }
@@ -105,6 +106,12 @@ header{
 .all-time , .phone-number-header , .all-day{
    font-size: 20px;
 }
+.all-time , .all-day{
+    color: #ff8400;
+ }
+ .phone-number-header{
+     color: black;
+ }
 .do-call:hover{
     text-decoration: none;
     color: white!important;
@@ -141,7 +148,7 @@ header{
 .nav-section{
     background-color: rgba(255, 255, 255, 0.85);
     z-index: 15;
-    position: sticky!important;
+    
     border-bottom: 1px solid #ddd;
 }
 
@@ -601,3 +608,23 @@ input[type='radio']:checked:after {
 .text-black{
     color: #ff8400!important;
 }
+.wave{
+    background: linear-gradient(to right, #69f460, #aed21e);
+    height: 50px;
+    position: relative;
+  }
+  .wave::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -10px;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, #97f44c 13px);
+  }
+  .wraps-sandiv{
+      font-family: 'Roboto Slab', serif;
+      font-size: 26px;
+  }
