@@ -46,6 +46,8 @@
     position: absolute;
     top: 40px;
     right: 0;
+    border: 1px solid #fe9522;
+
     
    }
    .global-search {
@@ -136,6 +138,9 @@
     .place-open-close-time{
         display: none;
     } 
+    .pull-right{
+        display: none;
+    }
     .place-phone-user{
         display: none;
     }
