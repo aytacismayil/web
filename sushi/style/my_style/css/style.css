@@ -308,6 +308,9 @@ img {vertical-align: middle;}
     color: white;
     font-weight: 500;
 }
+.price-cost p{
+    font-size: 18px;
+}
 #grid{
     background-color: #97f44c;
     color: white;
