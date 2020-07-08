@@ -84,15 +84,7 @@
   }
 }
 @media only screen and (max-width: 425px) and (min-width: 270px){
-   .place-open-close-time{
-       display: none;
-   } 
-   .place-phone-user{
-       display: none;
-   }
-   .time-three-section-col {
-       justify-content: center;
-   } 
+   
    .most-roll{
       font-size: 20px;
    }
@@ -140,6 +132,21 @@
     .item.list-group-item .img-event {
         float: left;
         width: 100%;
+    }
+    .place-open-close-time{
+        display: none;
+    } 
+    .place-phone-user{
+        display: none;
+    }
+    .time-three-section-col {
+        justify-content: center;
+    } 
+    .dropdown{
+       display: none;
+    }
+    .mob-language{
+        display: flex!important;
     }
     .price-cost p{
         font-size: 13px;
