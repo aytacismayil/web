@@ -138,7 +138,16 @@
     .place-open-close-time{
         display: none;
     } 
+    .sevdiyniz-terkb {
+        font-size: 15px;
+    }   
+    .card-body {
+        padding: 0.25rem!important;
+    } 
     .pull-right{
+        display: none;
+    }
+    .slider-section{
         display: none;
     }
     .place-phone-user{

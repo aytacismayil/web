@@ -546,14 +546,26 @@ label{
 .list-group-image:hover{
     transform: scale(1)!important;
 }
+.check-true-green{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
 .cemi-product-price{
-    border-bottom: 4px solid #ff8400;
+    border-bottom: 2px solid #ff8400;
     padding-bottom: 7px;
     font-weight: 500;
+    line-height: 30px;
 }
 .odeme-usullari-promo label ,.odeme-usullari-all label{
     color: black!important;
     font-weight: 500;
+}
+.sebet-cont{
+    background-color:  #ebedec;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .odeme-usullari-all input{
     color: #ff8400!important;
@@ -572,7 +584,7 @@ label{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px 20px;
-    border: 2px solid #97f44c;
+    border: 2px solid #ebedec;
 }
 input[type='radio']:after {
     width: 20px;
@@ -625,6 +637,13 @@ input[type='radio']:checked:after {
     height: 10px;
     background-size: 20px 20px;
     background-image: radial-gradient(circle at 10px -5px, transparent 12px, #97f44c 13px);
+  }
+  .most-roll{
+      font-weight: 600;
+  }
+  .sevdiyniz-terkb{
+      font-size: 30px;
+      font-weight: 300;
   }
   .wraps-sandiv{
       font-family: 'Roboto Slab', serif;
