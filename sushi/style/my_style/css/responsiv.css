@@ -234,6 +234,21 @@
     .odeme-usullari-all{
         flex-direction: column;
     }
+    .cemi-product-price{
+        display: none;
+    }
+    .mobile-sebet-kalory{
+        display: block;
+        text-align: right;
+        font-weight: 600;
+    }
+    .mobile-price-sebet{
+        display: block;
+        color: #fe9522;
+        font-weight: 500;
+        text-align: right;
+    }
+    
   }
    @media (min-width: 1200px){
       .modal-xl{

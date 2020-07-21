@@ -680,3 +680,6 @@ input[type='radio']:checked:after {
     font-style: italic;
     
   }
+  .mobile-price-sebet , .mobile-sebet-kalory{
+      display: none;
+  }
