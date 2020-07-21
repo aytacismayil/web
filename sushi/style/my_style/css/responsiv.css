@@ -138,13 +138,22 @@
     .place-open-close-time{
         display: none;
     } 
+    .cart_product_delete{
+        height: 60px;
+    }
+    .pull-right {
+        display: none;
+    }
     .sevdiyniz-terkb {
         font-size: 15px;
     }   
     .card-body {
         padding: 0.25rem!important;
     } 
-    .pull-right{
+    .mobile-block{
+        display: block;
+    }
+    .mobile-nome{
         display: none;
     }
     .slider-section{
@@ -173,6 +182,9 @@
     .thumbnail .img-event {
        width: 100%;
        height: 100px;
+    }
+    .card{
+        min-height: 200px!important;
     }
     .list-group-item-heading{
         font-size: 14px;

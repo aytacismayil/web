@@ -654,3 +654,29 @@ input[type='radio']:checked:after {
       background-color: #fe9522;
       border-radius: 5px;
   }
+  .mobile-block{
+      display: none;
+  }
+  .mobile-card{
+    -webkit-box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px;    
+    width: 100%;
+  }
+  .card-mobile-img {
+    width: 65%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .card-mobile-name{
+    color: #97f44c; 
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    
+  }
