@@ -707,7 +707,6 @@ input[type='radio']:checked:after {
     text-transform: uppercase;
     font-size: 25px;
     font-weight:bolder;
-   
     font-family: 'Comfortaa', cursive;
     
   }
@@ -717,4 +716,8 @@ input[type='radio']:checked:after {
 .sebet-title , .xardal-elave, .cart_product_name , .odeme-usel , .parol-title {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
+}
+.modal-product-about{
+    font-weight:500;
+    font-family: 'Comfortaa', cursive;
 }
