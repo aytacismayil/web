@@ -1,3 +1,4 @@
+
 .header-sushi{
     display: flex;
     justify-content: space-between;
@@ -53,6 +54,10 @@ header{
     font-size: 15px;
     padding: .5rem 2rem;
 }
+.mobile-text-n{
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+}
 .left-place{
     display: flex;
     justify-content: space-between;
@@ -100,7 +105,7 @@ header{
     padding: 0 8px;
     border: none;
     border-radius: 2px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 36px;
 }
 .all-time , .phone-number-header , .all-day{
@@ -130,7 +135,7 @@ header{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #292929;
+    color:  #97f44c;
     text-decoration: none;
 }
 .five-category-menu > ul > li {
@@ -371,6 +376,14 @@ img {vertical-align: middle;}
 }
 .bakida-sushi{
     padding-bottom: 40px;
+    
+
+}
+.bakida-sushi h2, p{
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    
+
 }
 /* zeng teleb et */
 label{
@@ -551,12 +564,28 @@ label{
     width: 55px;
     border-radius: 50%;
 }
+.list-group-item-heading{
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+}
+.list-group-item-text , .small-pors , .cost-sale , .ela{
+    font-family:  Arial, sans-serif;
+    font-weight: 300;
+}
+.price-c-button button , .call-do-that button , .all-day , .all-time , .phone-number-header , .href-link{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700!important;
+}
 
 .cemi-product-price{
     border-bottom: 2px solid #ff8400;
     padding-bottom: 7px;
     font-weight: 500;
     line-height: 30px;
+}
+.link-foot , .footer-copyright , .vakansiya{
+    font-family:  Arial, sans-serif;
+    font-weight: 600;
 }
 .odeme-usullari-promo label ,.odeme-usullari-all label{
     color: black!important;
@@ -639,7 +668,8 @@ input[type='radio']:checked:after {
     background-image: radial-gradient(circle at 10px -5px, transparent 12px, #97f44c 13px);
   }
   .most-roll{
-      font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
   }
   .sevdiyniz-terkb{
       font-size: 30px;
@@ -668,18 +698,23 @@ input[type='radio']:checked:after {
     width: 100%;
   }
   .card-mobile-img {
-    width: 65%;
+    width: 45%;
     height: 200px;
     object-fit: contain;
   }
   .card-mobile-name{
     color: #97f44c; 
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: italic;
+    font-size: 25px;
+    font-weight:bolder;
+   
+    font-family: 'Comfortaa', cursive;
     
   }
   .mobile-price-sebet , .mobile-sebet-kalory{
       display: none;
   }
+.sebet-title , .xardal-elave, .cart_product_name , .odeme-usel , .parol-title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}

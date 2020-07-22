@@ -93,9 +93,7 @@
    .link-foot {
     padding: 0px 10px;
    }
-   .new-link{
-       display: none;
-   }
+   
    .indigo{
       padding: 20px 0;
    }
@@ -134,6 +132,9 @@
     .item.list-group-item .img-event {
         float: left;
         width: 100%;
+    }
+    .new-link{
+        display: none;
     }
     .place-open-close-time{
         display: none;
