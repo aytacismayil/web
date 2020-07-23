@@ -725,10 +725,11 @@ input[type='radio']:checked:after {
   .mobile-block{
       display: none;
   }
+  
   .mobile-card{
-    -webkit-box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 7px 4px #777;
+	-moz-box-shadow: 0 7px 4px #777;
+	box-shadow: 0 7px 4px #777;
     display: flex;
     justify-content: space-between;
     align-items: center; 
