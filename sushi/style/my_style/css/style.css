@@ -275,6 +275,10 @@ img {vertical-align: middle;}
     display: table;
     content: " ";
 }
+.product-sebet{
+    position: absolute;
+    right: -240px;
+}
 .item.list-group-item:after{
     clear: both;
 }
