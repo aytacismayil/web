@@ -315,6 +315,9 @@ img {vertical-align: middle;}
 .lead{
     font-weight: 500;
 }
+.color-orange{
+    color: #fe9522;
+}
 .product-sebet{
     background-color: #97f44c !important;
     border-radius: 0;
