@@ -318,6 +318,10 @@ img {vertical-align: middle;}
 .color-orange{
     color: #fe9522;
 }
+.sebet-p-line{
+    display: inline-block;
+    transform: translate(0px, -6px);
+}
 .product-sebet{
     background-color: #97f44c !important;
     border-radius: 0;
