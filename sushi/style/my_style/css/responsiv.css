@@ -1,8 +1,65 @@
-@media only screen and (max-width: 3300px) and (min-width: 1600px){
+@media only screen and (max-width: 2000px) and (min-width: 1600px){
     .container-fluid{
         width: 80%;
     }
+    .product-sebet{
+        position: absolute;
+        right: -247px;
+    }
 }
+@media only screen and (max-width: 1680px) and (min-width: 1600px){
+    .product-sebet {
+        position: absolute;
+        right: -172px;
+    }
+}
+@media only screen and (max-width: 1599px) and (min-width: 1400px){
+    .product-sebet {
+        position: absolute;
+        right: -213px;
+    }
+}
+@media only screen and (max-width: 1366px) and (min-width: 1281px){
+    .product-sebet {
+        position: absolute;
+        right: -189px;
+    }
+}
+@media only screen and (max-width: 1280px) and (min-width: 1025px){
+    .product-sebet {
+        position: absolute;
+        right: -163px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 990px){
+    .product-sebet {
+        position: absolute;
+        right: -240px;
+    }
+}
+@media only screen and (max-width: 989px) and (min-width: 800px){
+    .product-sebet {
+        position: absolute;
+        right: -133px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width:767px){
+    .product-sebet {
+        position: absolute;
+        right: -163px;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width:400px){
+    .product-sebet {
+        transform: translate(72px, 0px);
+    }
+}
+@media only screen and (max-width: 375px) and (min-width:320px){
+    .product-sebet {
+        transform: translate(30px, 0px);
+    }
+}
+
 
 @media only screen and (max-width: 1022px) and (min-width: 270px){
    .mobile-menu{
@@ -105,12 +162,15 @@
       margin-top: 0px; 
    }
    .app-store {
-      width: 130px;
+      width: 50px;
    }
    .wraps-sandiv {
     font-family: 'Roboto Slab', serif;
     font-size: 22px;
     line-height: 41px;
+  }
+  .vakansiya{
+      font-size: 14px;
   }
   
 }
@@ -142,12 +202,20 @@
     .cart_product_delete{
         height: 60px;
     }
+    .place-logo {
+        width: 197px;
+        height: 82px;
+    }
     .pull-right {
         display: none;
     }
     .sevdiyniz-terkb {
         font-size: 15px;
-    }   
+    }  
+    .product-sebet{
+        width: 120px;
+        height: 25px;
+    } 
     .card-body {
         padding: 0.25rem!important;
     } 
@@ -157,8 +225,11 @@
     .mobile-nome{
         display: none;
     }
-    .slider-section{
-        display: none;
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+        height:auto;
     }
     .place-phone-user{
         display: none;
@@ -185,7 +256,10 @@
        height: 100px;
     }
     .card{
-        min-height: 200px!important;
+        min-height: 230px!important;
+    }
+    .pruduct-pirce-button {
+        top: 218px;
     }
     .list-group-item-heading{
         font-size: 14px;

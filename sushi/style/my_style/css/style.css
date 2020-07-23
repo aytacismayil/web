@@ -104,7 +104,7 @@ header{
     display: inline-block;
     padding: 0 8px;
     border: none;
-    border-radius: 2px;
+    border-radius: 5px!important;
     font-size: 16px;
     line-height: 36px;
 }
@@ -172,8 +172,8 @@ img {vertical-align: middle;}
     object-fit: cover;
 }
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -212,12 +212,11 @@ img {vertical-align: middle;}
 .thumbnail{
     margin-bottom: 30px;
     padding: 0px;
-    
     padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 5px!important;
+    position: relative;
 }
 .item.list-group-item{
     float: none;
@@ -249,6 +248,8 @@ img {vertical-align: middle;}
 .pruduct-pirce-button{
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 310px;
 }
 
 .item.list-group-item .caption .pruduct-pirce-button{
@@ -256,7 +257,20 @@ img {vertical-align: middle;}
     flex-direction: column;
     align-items: center;
     width: 23%;
+    position: relative;
+    top: 0;
+    z-index: 1;
 } 
+.item.list-group-item .caption .pruduct-pirce-button .price-c-button{
+    position: relative;
+    right: 0;
+    z-index: 1;
+}
+.item.list-group-item .caption .pruduct-pirce-button .price-c-button button{
+    position: relative; 
+    right: 0;
+   
+}
 .item.list-group-item:before, .item.list-group-item:after{
     display: table;
     content: " ";
@@ -301,8 +315,10 @@ img {vertical-align: middle;}
     background-color: #97f44c !important;
     border-radius: 0;
     font-weight: 500;
-    padding: 6px 16px;
+    width: 120px;
+    height: 35px;
     border: none;
+    border-radius: 5px ;
     color: #fff !important;
 }
 .small-pors{
@@ -330,13 +346,7 @@ img {vertical-align: middle;}
     border-radius: 12px;
     padding: 0 2px;
 }
-.indigo{
-    background-color: black;
-    height: auto;
-    background: #000000;
-    color: #fff;
-    padding: 50px 0;
-}
+
 .footer-links{
     display: flex;
     justify-content: space-around;
@@ -357,10 +367,16 @@ img {vertical-align: middle;}
     color: white;
     text-decoration: none;
 }
+.active-link{
+    width: 100%;
+    background-color: #fe9522;
+    color: white;
+    
+}
 .app-store{
-    width: 183px;
-    height: 50px;
-    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 .app-store-al{
     text-align: center;
@@ -576,7 +592,10 @@ label{
     font-family: 'Comfortaa', cursive;
     font-weight: 700!important;
 }
-
+.price-c-button{
+    position: relative;
+    
+}
 .cemi-product-price{
     border-bottom: 2px solid #ff8400;
     padding-bottom: 7px;
@@ -591,11 +610,7 @@ label{
     color: black!important;
     font-weight: 500;
 }
-.sebet-cont{
-    background-color:  #ebedec;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+
 .odeme-usullari-all input{
     color: #ff8400!important;
 }
@@ -646,7 +661,7 @@ input[type='radio']:checked:after {
     color: white;
 }
 .saaat-sifasis label input{
-    width: 50px;
+    width: 80px;
 }
 .text-black{
     color: #ff8400!important;
@@ -666,6 +681,25 @@ input[type='radio']:checked:after {
     height: 10px;
     background-size: 20px 20px;
     background-image: radial-gradient(circle at 10px -5px, transparent 12px, #97f44c 13px);
+  }
+  .indigo{
+    position: relative;
+    background-color: black;
+    height: auto;
+    background: #000000;
+    color: #fff;
+    padding: 50px 0;
+  }
+  .indigo:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -10px;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, black 13px); 
   }
   .most-roll{
     font-family: 'Comfortaa', cursive;
