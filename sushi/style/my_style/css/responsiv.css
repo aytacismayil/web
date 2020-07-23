@@ -7,10 +7,23 @@
         right: -247px;
     }
 }
-@media only screen and (max-width: 1680px) and (min-width: 1600px){
+@media only screen and (max-width: 1680px) and (min-width: 1639px){
+    .product-sebet {
+        position: absolute;
+        right: -182px;
+    }
+}
+@media only screen and (max-width: 1638px) and (min-width: 1611px){
     .product-sebet {
         position: absolute;
         right: -172px;
+    }
+}
+
+@media only screen and (max-width: 1610px) and (min-width: 1600px){
+    .product-sebet {
+        position: absolute;
+        right: -165px;
     }
 }
 @media only screen and (max-width: 1488px) and (min-width: 1476px){
