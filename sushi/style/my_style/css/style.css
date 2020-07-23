@@ -325,9 +325,7 @@ img {vertical-align: middle;}
     border-radius: 5px ;
     color: #fff !important;
 }
-.small-pors{
-    color: #fe9522;
-}
+
 #list{
     background-color: #fe9522;
     color: white;
@@ -586,7 +584,7 @@ label{
 }
 .list-group-item-heading{
     font-family: Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 .list-group-item-text , .small-pors , .cost-sale , .ela{
     font-family:  Arial, sans-serif;

@@ -16,7 +16,7 @@
 @media only screen and (max-width: 1599px) and (min-width: 1400px){
     .product-sebet {
         position: absolute;
-        right: -232px;
+        right: -222px;
     }
 }
 @media only screen and (max-width: 1366px) and (min-width: 1281px){
@@ -181,7 +181,18 @@
     line-height: 32px;
   }
 }
-
+@media only screen and (max-width: 1342px) and (min-width:1280px){
+    .product-sebet {
+        position: absolute;
+        right: -168px;
+    }
+  }
+  @media only screen and (max-width: 1285px) and (min-width:1200px){
+    .product-sebet {
+        position: absolute;
+        right: -160px;
+    }
+  }
 @media only screen and (max-width: 768px) and (min-width:200px){
     .item.list-group-item .thumbnail {
         margin-bottom: 0px;
@@ -229,7 +240,7 @@
         max-width: 100%;
         position: relative;
         margin: auto;
-        height:auto;
+        height:160px;
     }
     .place-phone-user{
         display: none;
@@ -277,7 +288,7 @@
         margin-bottom: 19px;
     }
     .thumbnail {
-        margin-bottom: 19px;
+        margin-bottom: 5px;
     }
     .item.list-group-item .caption .pruduct-pirce-button .price-cost p{
         font-size: 13px;
