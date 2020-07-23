@@ -13,10 +13,46 @@
         right: -172px;
     }
 }
-@media only screen and (max-width: 1599px) and (min-width: 1400px){
+@media only screen and (max-width: 1488px) and (min-width: 1476px){
     .product-sebet {
         position: absolute;
-        right: -222px;
+        right: -234px;
+    }
+}
+@media only screen and (max-width: 1475px) and (min-width: 1458px){
+    .product-sebet {
+        position: absolute;
+        right: -234px;
+    }
+}
+@media only screen and (max-width: 1457px) and (min-width: 1441px){
+    .product-sebet {
+        position: absolute;
+        right: -225px;
+    }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1420px){
+    .product-sebet {
+        position: absolute;
+        right: -218px;
+    }
+}
+@media only screen and (max-width: 1419px) and (min-width: 1400px){
+    .product-sebet {
+        position: absolute;
+        right: -210px;
+    }
+}
+@media only screen and (max-width: 1399px) and (min-width: 1389px){
+    .product-sebet {
+        position: absolute;
+        right: -205px;
+    }
+}
+@media only screen and (max-width: 1388px) and (min-width: 1340px){
+    .product-sebet {
+        position: absolute;
+        right: -200px;
     }
 }
 @media only screen and (max-width: 1366px) and (min-width: 1281px){
@@ -181,16 +217,70 @@
     line-height: 32px;
   }
 }
-@media only screen and (max-width: 1342px) and (min-width:1280px){
+@media only screen and (max-width: 1342px) and (min-width:1233px){
     .product-sebet {
         position: absolute;
-        right: -168px;
+        right: -186px;
+    }
+  }
+  @media only screen and (max-width: 1321px) and (min-width:1311px){
+    .product-sebet {
+        position: absolute;
+        right: -177px;
+    }
+  }
+  @media only screen and (max-width: 1310px) and (min-width:1300px){
+    .product-sebet {
+        position: absolute;
+        right: -170px;
+    }
+  }
+  @media only screen and (max-width: 1298px) and (min-width:1285px){
+    .product-sebet {
+        position: absolute;
+        right: -172px;
+    }
+  }
+  @media only screen and (max-width: 1274px) and (min-width:1260px){
+    .product-sebet {
+        position: absolute;
+        right: -160px!important;
+    }
+  }
+  @media only screen and (max-width: 1260px) and (min-width:1240px){
+    .product-sebet {
+        position: absolute;
+        right: -155px!important;
+    }
+  }
+  @media only screen and (max-width: 1239px) and (min-width:1228px){
+    .product-sebet {
+        position: absolute;
+        right: -154px!important;
+    }
+  }
+  @media only screen and (max-width: 1227px) and (min-width:1202px){
+    .product-sebet {
+        position: absolute;
+        right: -145px!important;
+    }
+  }
+  @media only screen and (max-width: 1201px) and (min-width:1200px){
+    .product-sebet {
+        position: absolute;
+        right: -140px!important;
+    }
+  }
+  @media only screen and (max-width: 1332px) and (min-width:1322px){
+    .product-sebet {
+        position: absolute;
+        right: -182px;
     }
   }
   @media only screen and (max-width: 1285px) and (min-width:1200px){
     .product-sebet {
         position: absolute;
-        right: -160px;
+        right: -166px;
     }
   }
 @media only screen and (max-width: 768px) and (min-width:200px){
