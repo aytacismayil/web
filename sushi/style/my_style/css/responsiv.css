@@ -122,6 +122,11 @@
         right: -163px;
     }
 }
+@media only screen and (max-width: 492px) and (min-width:426px){
+    .product-sebet {
+        transform: translate(20px, 0px);
+    }
+}
 @media only screen and (max-width: 425px) and (min-width:416px){
     .product-sebet {
         transform: translate(-35px, 0px);
@@ -354,6 +359,9 @@
         width: 197px;
         height: 82px;
     }
+    .mySlides{
+        box-shadow: 0 8px 6px #777;
+    }
     .pull-right {
         display: none;
     }
@@ -377,7 +385,6 @@
         max-width: 100%;
         position: relative;
         margin: auto;
-        height:160px;
     }
     .place-phone-user{
         display: none;
