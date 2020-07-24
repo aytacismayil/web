@@ -730,6 +730,16 @@ input[type='radio']:checked:after {
   .mobile-block{
       display: none;
   }
+  
+  .mobile-card{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px;    
+    width: 100%;
+    background-color: white;
+  }
   .mobile-card:before, .mobile-card:after
 {
   z-index: -1;
@@ -760,15 +770,6 @@ input[type='radio']:checked:after {
   right: 10px;
   left: auto;
 }
-  .mobile-card{
-background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 5px;    
-    width: 100%;
-    position: relative;
-  }
   .card-mobile-img {
     width: 45%;
     height: 200px;
