@@ -98,7 +98,7 @@ header{
     object-fit: contain;
 }
 .do-call{
-    background-color: #97f44c !important;
+    background-color: rgb(097,206,014)!important;
     color: #000 !important;
     width: 180px;
     display: inline-block;
@@ -112,7 +112,7 @@ header{
    font-size: 20px;
 }
 .all-time , .all-day{
-    color: #ff8400;
+    color: rgb(244, 129, 031);
  }
  .phone-number-header{
      color: black;
@@ -123,9 +123,9 @@ header{
 }
 /* menu */
 .five-category-menu > ul > li a:hover span {
-    -webkit-box-shadow: -1px 1px 5px 10px rgba(209,230,46,1);
-    -moz-box-shadow: -1px 1px 5px 10px rgba(209,230,46,1);
-    box-shadow: -1px 1px 5px 10px rgba(209,230,46,1);
+    -webkit-box-shadow: -1px 1px 5px 10px rgb(097,206,014);
+    -moz-box-shadow: -1px 1px 5px 10px rgb(097,206,014);
+    box-shadow: -1px 1px 5px 10px rgb(097,206,014);
     transition: 0.5s;
 }
 
@@ -135,7 +135,7 @@ header{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    color:  #97f44c;
+    color:  rgb(097,206,014);
     text-decoration: none;
 }
 .five-category-menu > ul > li {
@@ -181,7 +181,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 .active {
-  background-color: #97f44c !important;
+  background-color:rgb(097,206,014) !important;
 }
 
 .fadee {
@@ -316,14 +316,14 @@ img {vertical-align: middle;}
     font-weight: 500;
 }
 .color-orange{
-    color: #fe9522;
+    color: rgb(244, 129, 031);
 }
 .sebet-p-line{
     display: inline-block;
     transform: translate(0px, -6px);
 }
 .product-sebet{
-    background-color: #97f44c !important;
+    background-color: rgb(097,206,014) !important;
     border-radius: 0;
     font-weight: 500;
     width: 120px;
@@ -334,7 +334,7 @@ img {vertical-align: middle;}
 }
 
 #list{
-    background-color: #fe9522;
+    background-color: rgb(244, 129, 031);
     color: white;
     font-weight: 500;
 }
@@ -342,7 +342,7 @@ img {vertical-align: middle;}
     font-size: 18px;
 }
 #grid{
-    background-color: #97f44c;
+    background-color: rgb(097,206,014);
     color: white;
     font-weight: 500;
 }
@@ -351,7 +351,7 @@ img {vertical-align: middle;}
     top: 20px;
     font-size: 11px;
     font-weight: 700;
-    background-color: #fe9522;
+    background-color: rgb(244, 129, 031);
     border-radius: 12px;
     padding: 0 2px;
 }
@@ -372,13 +372,13 @@ img {vertical-align: middle;}
 }
 .link-foot:hover{
     width: 100%;
-    background-color: #fe9522;
+    background-color: rgb(244, 129, 031);
     color: white;
     text-decoration: none;
 }
 .active-link{
     width: 100%;
-    background-color: #fe9522;
+    background-color: rgb(244, 129, 031);
     color: white;
     
 }
@@ -391,10 +391,10 @@ img {vertical-align: middle;}
     text-align: center;
 }
 .vakansiya{
-    color: #97f44c;
+    color: rgb(097,206,014);
 }
 .vakansiya:hover{
-    color: #97f44c;
+    color:rgb(097,206,014);
 }
 .left-logo{
     margin: auto;
@@ -412,17 +412,17 @@ img {vertical-align: middle;}
 }
 /* zeng teleb et */
 label{
-    color: #fe9522;
+    color: rgb(244, 129, 031);
 }
 .form-control:focus {
-    color: #97f44c!important;
+    color: rgb(097,206,014)!important;
     background-color: #fff;
     border-color: #97f44c!important;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
 #staticBackdropLabel{
-   color: #97f44c;
+   color: rgb(097,206,014);
 }
 .cursor-pointer{
     cursor: pointer;
@@ -437,7 +437,7 @@ label{
     justify-content: space-between;
 }
 .login-button{
-    background-color: #97f44c;
+    background-color: rgb(097,206,014);
     color: black;
 }
 .map-div{
@@ -469,7 +469,7 @@ label{
     display: flex;
 }
 .ela{
-    color: #fe9522;
+    color:rgb(244, 129, 031);
 }
 .mehsulun-sayi-modal{
     display: flex;
@@ -485,7 +485,7 @@ label{
     line-height: 18px;
     padding: 8px 0;
     width: 36px;
-    background-color: #ff8400 !important;
+    background-color: rgb(244, 129, 031) !important;
     color: #fff !important;
 }
 .modal-sayi{
@@ -552,7 +552,7 @@ label{
     width: 36px;
 }
 .btn_orange {
-    background-color: #ff8400 !important;
+    background-color: rgb(244, 129, 031)!important;
     color: #fff !important;
 }
 .count_block .product_count {
@@ -607,7 +607,7 @@ label{
     
 }
 .cemi-product-price{
-    border-bottom: 2px solid #ff8400;
+    border-bottom: 2px solid rgb(244, 129, 031);
     padding-bottom: 7px;
     font-weight: 500;
     line-height: 30px;
@@ -622,7 +622,7 @@ label{
 }
 
 .odeme-usullari-all input{
-    color: #ff8400!important;
+    color:rgb(244, 129, 031)!important;
 }
 .odeme-usullari-all{
     display: flex;
@@ -660,24 +660,24 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #ffa500;
+    background-color: rgb(244, 129, 031);
     content: '';
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
 }
 .promo-butn{
-    background-color: #97f44c!important;
+    background-color:rgb(097,206,014)!important;
     color: white;
 }
 .saaat-sifasis label input{
     width: 80px;
 }
 .text-black{
-    color: #ff8400!important;
+    color:rgb(244, 129, 031)!important;
 }
 .wave{
-    background: linear-gradient(to right, #97f44c, #97f44c);
+    background: linear-gradient(to right, rgb(097,206,014), rgb(097,206,014));
     height: 50px;
     position: relative;
   }
@@ -690,7 +690,7 @@ input[type='radio']:checked:after {
     background-repeat: repeat;
     height: 10px;
     background-size: 20px 20px;
-    background-image: radial-gradient(circle at 10px -5px, transparent 12px, #97f44c 13px);
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px,rgb(097,206,014) 13px);
   }
   .indigo{
     position: relative;
@@ -725,7 +725,7 @@ input[type='radio']:checked:after {
   }
   sub ,sup , .suv{
       color: white!important;
-      background-color: #fe9522;
+      background-color: rgb(244, 129, 031);
       border-radius: 5px;
   }
   .mobile-block{
@@ -777,7 +777,7 @@ input[type='radio']:checked:after {
     object-fit: contain;
   }
   .card-mobile-name{
-    color: #97f44c; 
+    color: rgb(097,206,014); 
     text-transform: uppercase;
     font-size: 25px;
     font-weight:bolder;

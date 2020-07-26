@@ -191,7 +191,7 @@
     position: absolute;
     top: 40px;
     right: 0;
-    border: 1px solid #fe9522;
+    border: 1px solid rgb(244, 129, 031);
 
     
    }
@@ -503,7 +503,7 @@
     }
     .mobile-price-sebet{
         display: block;
-        color: #fe9522;
+        color: rgb(244, 129, 031);
         font-weight: 500;
         text-align: right;
     }
