@@ -284,10 +284,12 @@ img {vertical-align: middle;}
 }
 #products .item .card{
     position: relative;
+    
 }
 .thumbnail .img-event{
     width: 100%;
     min-height: 270px;
+    border:1px solid rgb(244, 129, 031);
 }
 .thumbnail  .img-event img{
     transform: scale(0.85);
