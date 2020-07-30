@@ -53,6 +53,13 @@ header{
 .nav-link {
     font-size: 15px;
     padding: .5rem 2rem;
+    font-family: Arial,sans-serif;
+}
+.nav-link:hover , .bn:hover{
+    text-decoration: underline!important;
+}
+.mobile-line-opne{
+    border-bottom: 1px solid white;
 }
 .mobile-text-n{
     font-family: Arial,sans-serif;
@@ -70,6 +77,8 @@ header{
 .mobile-menu , .menu-mobile-hover , #close-menu , .humburger-menu , .mob-phone , .mobile-click-search , #mob-close-search-button{
     display: none;
 }
+
+
 /* header */
 .time-logo-section{  
     height: auto;
@@ -212,7 +221,7 @@ img {vertical-align: middle;}
 .thumbnail{
     margin-bottom: 30px;
     padding: 0px;
-    padding: 15px;
+    padding: 10x;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 5px!important;
@@ -231,7 +240,7 @@ img {vertical-align: middle;}
 }
 .item.list-group-item .img-event {
     float: left;
-    width: 30%;
+    width: 40%;
     cursor: pointer;
 }
 .item.list-group-item .thumbnail{
@@ -241,15 +250,14 @@ img {vertical-align: middle;}
 }
 .item.list-group-item .caption{
     display: flex;
-    flex-direction: row-reverse;
-    width: 70%;
+    width: 60%;
     margin: 0;
 }
 .pruduct-pirce-button{
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 310px;
+    padding: 0 8px;
+
 }
 
 .item.list-group-item .caption .pruduct-pirce-button{
@@ -275,10 +283,10 @@ img {vertical-align: middle;}
     display: table;
     content: " ";
 }
-.product-sebet{
+/* .product-sebet{
     position: absolute;
     right: -240px;
-}
+} */
 .item.list-group-item:after{
     clear: both;
 }
@@ -288,14 +296,14 @@ img {vertical-align: middle;}
 }
 .thumbnail .img-event{
     width: 100%;
-    min-height: 270px;
+    min-height: auto;
     border:1px solid rgb(244, 129, 031);
 }
 .thumbnail  .img-event img{
     transform: scale(0.85);
     transition: 0.5s;
     max-width: 100%;
-    height: 100%;
+    
     text-align: center;
     object-fit: contain;
     cursor: pointer;
@@ -320,9 +328,15 @@ img {vertical-align: middle;}
 .color-orange{
     color: rgb(244, 129, 031);
 }
+.cps{
+    display: none;
+}
 .sebet-p-line{
     display: inline-block;
     transform: translate(0px, -6px);
+    height: 2px;
+    width: 21px;
+    background-color: black;
 }
 .product-sebet{
     background-color: rgb(097,206,014) !important;
@@ -383,12 +397,14 @@ img {vertical-align: middle;}
     width: 100%;
     background-color: rgb(244, 129, 031);
     color: white;
-    
 }
 .app-store{
     width: 40px;
     height: 40px;
     object-fit: contain;
+}
+.footer-mobob{
+    display: none;
 }
 .app-store-al{
     text-align: center;
@@ -597,6 +613,9 @@ label{
     font-family: Arial, sans-serif;
     font-weight: 600;
 }
+.list-group-item-text{
+    margin-top: 5px;
+}
 .list-group-item-text , .small-pors , .cost-sale , .ela{
     font-family:  Arial, sans-serif;
     font-weight: 300;
@@ -734,7 +753,47 @@ input[type='radio']:checked:after {
   .mobile-block{
       display: none;
   }
+  .href-link span{
+    position: relative; 
+    background-color: white;
   
+  }
+  .href-link span:before, .href-link span:after
+  {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 0px;
+    width: 50%;
+    top: 80%;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px rgb(104, 92, 92);
+    -moz-box-shadow: 0 5px 5px #777;
+    box-shadow: 0 5px 10px #777!important;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-5deg);
+  }
+  .href-link span:after
+  {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(5deg);
+    right: 0px;
+    left: auto;
+  }
+  .small-pors{
+      color: rgb(244, 129, 031);
+  }
+.sebte{
+    width: 20px;
+    height: 15px;
+}
   .mobile-card{
     position: relative;
     display: flex;

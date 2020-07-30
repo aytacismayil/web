@@ -1,151 +1,8 @@
-@media only screen and (max-width: 2000px) and (min-width: 1600px){
+@media only screen and (max-width: 3000px) and (min-width: 1600px){
     .container-fluid{
         width: 80%;
     }
-    .product-sebet{
-        position: absolute;
-        right: -247px;
-    }
-}
-@media only screen and (max-width: 1680px) and (min-width: 1639px){
-    .product-sebet {
-        position: absolute;
-        right: -182px;
-    }
-}
-@media only screen and (max-width: 1638px) and (min-width: 1611px){
-    .product-sebet {
-        position: absolute;
-        right: -172px;
-    }
-}
-
-@media only screen and (max-width: 1610px) and (min-width: 1600px){
-    .product-sebet {
-        position: absolute;
-        right: -165px;
-    }
-}
-@media only screen and (max-width: 1488px) and (min-width: 1476px){
-    .product-sebet {
-        position: absolute;
-        right: -234px;
-    }
-}
-@media only screen and (max-width: 1475px) and (min-width: 1458px){
-    .product-sebet {
-        position: absolute;
-        right: -234px;
-    }
-}
-@media only screen and (max-width: 1457px) and (min-width: 1441px){
-    .product-sebet {
-        position: absolute;
-        right: -225px;
-    }
-}
-@media only screen and (max-width: 1440px) and (min-width: 1420px){
-    .product-sebet {
-        position: absolute;
-        right: -218px;
-    }
-}
-@media only screen and (max-width: 1419px) and (min-width: 1400px){
-    .product-sebet {
-        position: absolute;
-        right: -210px;
-    }
-}
-@media only screen and (max-width: 1399px) and (min-width: 1389px){
-    .product-sebet {
-        position: absolute;
-        right: -205px;
-    }
-}
-@media only screen and (max-width: 1388px) and (min-width: 1340px){
-    .product-sebet {
-        position: absolute;
-        right: -200px;
-    }
-}
-@media only screen and (max-width: 1366px) and (min-width: 1281px){
-    .product-sebet {
-        position: absolute;
-        right: -189px;
-    }
-}
-@media only screen and (max-width: 1280px) and (min-width: 1199px){
-    .product-sebet {
-        position: absolute;
-        right: -163px;
-    }
-}
-@media only screen and (max-width: 1024px) and (min-width: 990px){
-    .product-sebet {
-        position: absolute;
-        right: -249px;
-    }
-}
-@media only screen and (max-width: 1199px) and (min-width: 1180px){
-    .product-sebet {
-        position: absolute;
-        right: -335px;
-    }
-}
-@media only screen and (max-width: 1180px) and (min-width: 1162px){
-    .product-sebet {
-        position: absolute;
-        right: -326px;
-    }
-}
-@media only screen and (max-width: 1161px) and (min-width: 1148px){
-    .product-sebet {
-        position: absolute;
-        right: -317px;
-    }
-}
-@media only screen and (max-width: 1148px) and (min-width: 1135px){
-    .product-sebet {
-        position: absolute;
-        right: -310px;
-    }
-}
-@media only screen and (max-width: 989px) and (min-width: 800px){
-    .product-sebet {
-        position: absolute;
-        right: -133px;
-    }
-}
-@media only screen and (max-width: 768px) and (min-width:767px){
-    .product-sebet {
-        position: absolute;
-        right: -163px;
-    }
-}
-@media only screen and (max-width: 492px) and (min-width:426px){
-    .product-sebet {
-        transform: translate(20px, 0px);
-    }
-}
-@media only screen and (max-width: 425px) and (min-width:416px){
-    .product-sebet {
-        transform: translate(-35px, 0px);
-    }
-}
-@media only screen and (max-width: 415px) and (min-width:376px){
-    .product-sebet {
-        transform: translate(-41px, 0px);
-    }
-}
-@media only screen and (max-width: 375px) and (min-width:370px){
-    .product-sebet {
-        transform: translate(-82px, 0px);
-    }
-}
-@media only screen and (max-width: 370px) and (min-width:360px){
-    .product-sebet {
-        transform: translate(-93px, 0px);
-    }
+    
 }
 
 
@@ -159,7 +16,7 @@
       font-size: 10px;
    }
    .menu-mobile-hover{
-    max-width: 250px;
+    max-width: 330px;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 40px;
@@ -260,6 +117,14 @@
   .vakansiya{
       font-size: 14px;
   }
+  .thumbnail .img-event {
+    width: 100%;
+    
+ }
+ .card-mobile-name{
+    margin-left: 1px!important;
+}
+
   
 }
 @media only screen and (max-width: 1170px) and (min-width:426px){
@@ -269,72 +134,7 @@
     line-height: 32px;
   }
 }
-@media only screen and (max-width: 1342px) and (min-width:1233px){
-    .product-sebet {
-        position: absolute;
-        right: -186px;
-    }
-  }
-  @media only screen and (max-width: 1321px) and (min-width:1311px){
-    .product-sebet {
-        position: absolute;
-        right: -177px;
-    }
-  }
-  @media only screen and (max-width: 1310px) and (min-width:1300px){
-    .product-sebet {
-        position: absolute;
-        right: -170px;
-    }
-  }
-  @media only screen and (max-width: 1298px) and (min-width:1285px){
-    .product-sebet {
-        position: absolute;
-        right: -172px;
-    }
-  }
-  @media only screen and (max-width: 1274px) and (min-width:1260px){
-    .product-sebet {
-        position: absolute;
-        right: -160px!important;
-    }
-  }
-  @media only screen and (max-width: 1260px) and (min-width:1240px){
-    .product-sebet {
-        position: absolute;
-        right: -155px!important;
-    }
-  }
-  @media only screen and (max-width: 1239px) and (min-width:1228px){
-    .product-sebet {
-        position: absolute;
-        right: -154px!important;
-    }
-  }
-  @media only screen and (max-width: 1227px) and (min-width:1202px){
-    .product-sebet {
-        position: absolute;
-        right: -145px!important;
-    }
-  }
-  @media only screen and (max-width: 1201px) and (min-width:1200px){
-    .product-sebet {
-        position: absolute;
-        right: -140px!important;
-    }
-  }
-  @media only screen and (max-width: 1332px) and (min-width:1322px){
-    .product-sebet {
-        position: absolute;
-        right: -182px;
-    }
-  }
-  @media only screen and (max-width: 1285px) and (min-width:1200px){
-    .product-sebet {
-        position: absolute;
-        right: -166px;
-    }
-  }
+
 @media only screen and (max-width: 768px) and (min-width:200px){
     .item.list-group-item .thumbnail {
         margin-bottom: 0px;
@@ -349,6 +149,16 @@
     .new-link{
         display: none;
     }
+    .do-call {
+        width: 166px;
+    }
+    .cps{
+        display: block;
+    }
+    .card-mobile-name{
+        margin-left: 30px;
+    }
+
     .place-open-close-time{
         display: none;
     } 
@@ -358,6 +168,9 @@
     .place-logo {
         width: 197px;
         height: 100px;
+    }
+    .footer-mobob{
+        display: block;
     }
     .mySlides{
         position: relative;
@@ -397,10 +210,10 @@
     .sevdiyniz-terkb {
         font-size: 15px;
     }  
-    .product-sebet{
+    /* .product-sebet{
         width: 120px;
         height: 25px;
-    } 
+    }  */
     .card-body {
         padding: 0.25rem!important;
     } 
@@ -437,19 +250,16 @@
     }
     .thumbnail .img-event {
        width: 100%;
-       height: 100px;
+       height: auto;
     }
     .card{
         min-height: 230px!important;
     }
-    .pruduct-pirce-button {
-        top: 218px;
-    }
     .list-group-item-heading{
-        font-size: 14px;
+        font-size: 15px;
     }
     .list-group-item-text{
-        font-size: 12px;
+        font-size: 15px;
     }
     .item.list-group-item .caption {
         display: flex;
