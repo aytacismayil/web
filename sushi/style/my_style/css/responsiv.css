@@ -146,8 +146,15 @@
         float: left;
         width: 100%;
     }
+    .mobl-padding{
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
     .new-link{
         display: none;
+    }
+    .pruduct-pirce-button {
+        padding-bottom: 5px!important;
     }
     .do-call {
         width: 166px;
