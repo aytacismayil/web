@@ -344,5 +344,9 @@
     .card-mobile-name {
         font-size: 20px;        
     }
+    .price-cost p {
+        font-size: 13px!important;
+        line-height: 28px;
+    }
     
 }
