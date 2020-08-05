@@ -60,6 +60,7 @@ header{
 }
 .mobile-line-opne{
     border-bottom: 1px solid white;
+    margin: 20px 0;
 }
 .mobile-text-n{
     font-family: Arial,sans-serif;
@@ -131,11 +132,8 @@ header{
     color: white!important;
 }
 /* menu */
-.five-category-menu > ul > li a:hover span {
-    -webkit-box-shadow: -1px 1px 5px 10px rgb(097,206,014);
-    -moz-box-shadow: -1px 1px 5px 10px rgb(097,206,014);
-    box-shadow: -1px 1px 5px 10px rgb(097,206,014);
-    transition: 0.5s;
+.time-10-18{
+    font-size: 29px!important;
 }
 
 .five-category-menu > ul > li a {
@@ -256,8 +254,14 @@ img {vertical-align: middle;}
 .pruduct-pirce-button{
     display: flex;
     justify-content: space-between;
-    padding: 0 8px;
+    padding: 8px 8px;
 
+}
+.five-part-line{
+    color: grey!important;
+}
+.card-body{
+    padding: 0.50rem!important;
 }
 
 .item.list-group-item .caption .pruduct-pirce-button{
@@ -321,6 +325,7 @@ img {vertical-align: middle;}
 }
 .cost-sale{
     text-decoration: line-through;
+    color: grey;
 }
 .lead{
     font-weight: 500;
@@ -349,18 +354,21 @@ img {vertical-align: middle;}
     color: #fff !important;
 }
 
-#list{
-    background-color: rgb(244, 129, 031);
-    color: white;
-    font-weight: 500;
-}
+
 .price-cost p{
     font-size: 18px;
+    margin-bottom: 0;
+    line-height: 32px;
 }
-#grid{
+
+.active-list-grid{
     background-color: rgb(097,206,014);
-    color: white;
-    font-weight: 500;
+    color: #7E8285;
+    font-weight: 500; 
+}
+.active-list-grid-white{
+    background-color: white;
+    color: #7E8285;
 }
 .shoping-product-num{
     position: absolute;
@@ -432,6 +440,7 @@ img {vertical-align: middle;}
 /* zeng teleb et */
 label{
     color: rgb(244, 129, 031);
+    margin-bottom: 0!important;
 }
 .form-control:focus {
     color: rgb(097,206,014)!important;
@@ -493,7 +502,7 @@ label{
 .mehsulun-sayi-modal{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;  
+    margin-top: 155px;  
 }
 .modal-product-sayi-dicrise{
     display: flex;
@@ -528,7 +537,7 @@ label{
     height: 100%;
     font-weight: 500;
     padding: 10px 10px;
-    background-color: #333 !important;
+    background-color: rgb(097,206,014) !important;
     color: #fff !important;
 }
 
@@ -756,6 +765,7 @@ input[type='radio']:checked:after {
   .href-link span{
     position: relative; 
     background-color: white;
+    padding: 0 10px;
   
   }
   .href-link span:before, .href-link span:after

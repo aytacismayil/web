@@ -51,3 +51,14 @@ function sweetAlert() {
       'success'
   )
 }
+
+$('.active-list-grid-white').click(function(){
+  $(this).css("background-color", "rgb(097,206,014)");
+  $('.active-list-grid').css("background-color", "white");
+});
+
+$('.active-list-grid').click(function(){
+  $(this).css("background-color", "white");
+  $('.active-list-grid-white').css("background-color", "rgb(097,206,014)");
+});
+

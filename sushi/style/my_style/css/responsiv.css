@@ -122,7 +122,8 @@
     
  }
  .card-mobile-name{
-    margin-left: 1px!important;
+    margin-left: 19px!important;
+    font-size: 22px;
 }
 
   
@@ -164,6 +165,9 @@
     .pruduct-pirce-button {
         padding-bottom: 5px!important;
     }
+    .nav-link:hover, .bn:hover {
+        text-decoration: none!important;
+    }    
     .do-call {
         width: 166px;
     }
@@ -331,6 +335,9 @@
         color: rgb(244, 129, 031);
         font-weight: 500;
         text-align: right;
+    }
+    .href-link:hover{
+        text-decoration: none!important;
     }
     
   }
