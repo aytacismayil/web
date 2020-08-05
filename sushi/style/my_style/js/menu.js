@@ -52,13 +52,36 @@ function sweetAlert() {
   )
 }
 
-$('.active-list-grid-white').click(function(){
-  $(this).css("background-color", "rgb(097,206,014)");
-  $('.active-list-grid').css("background-color", "white");
-});
+// $('.active-list-grid-white').click(function(){
+//   $(this).css("background-color", "rgb(097,206,014)");
+//   $('.active-list-grid').css("background-color", "white");
+// });
 
-$('.active-list-grid').click(function(){
-  $(this).css("background-color", "white");
-  $('.active-list-grid-white').css("background-color", "rgb(097,206,014)");
-});
+// $('.active-list-grid').click(function(){
+//   $(this).css("background-color", "white");
+//   $('.active-list-grid-white').css("background-color", "rgb(097,206,014)");
+// });
 
+clicked = true;
+$(".active-list-grid-white").click(function(){
+  if(clicked){
+      $(this).css('background-color', 'rgb(097,206,014)');
+      clicked  = false;
+      $('.active-list-grid').css("background-color", "white");
+  } else {
+      $(this).css('background-color', 'white');
+      clicked  = true;
+      $('.active-list-grid').css("background-color", "rgb(097,206,014)");
+  }   
+});
+$(".active-list-grid").click(function(){
+  if(clicked){
+      $(this).css('background-color', 'white');
+      clicked  = false;
+      $('.active-list-grid-white').css("background-color", "rgb(097,206,014)");
+  } else {
+      $(this).css('background-color', 'rgb(097,206,014)');
+      clicked  = true;
+      $('.active-list-grid-white').css("background-color", "white");
+  }   
+});
