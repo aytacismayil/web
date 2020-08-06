@@ -807,7 +807,7 @@ input[type='radio']:checked:after {
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
   }
   .href-link span:after
   {
@@ -815,7 +815,7 @@ input[type='radio']:checked:after {
     -moz-transform: rotate(3deg);
     -o-transform: rotate(3deg);
     -ms-transform: rotate(3deg);
-    transform: rotate(2deg);
+    transform: rotate(1deg);
     right: 0px;
     left: auto;
   }
