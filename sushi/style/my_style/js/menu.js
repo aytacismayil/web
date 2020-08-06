@@ -66,22 +66,31 @@ clicked = true;
 $(".active-list-grid-white").click(function(){
   if(clicked){
       $(this).css('background-color', 'rgb(097,206,014)');
+      $(this).css('color', 'white');
       clicked  = false;
       $('.active-list-grid').css("background-color", "white");
+      $('.active-list-grid').css("color", "grey");
   } else {
       $(this).css('background-color', 'white');
+      $(this).css('color', 'grey');
       clicked  = true;
       $('.active-list-grid').css("background-color", "rgb(097,206,014)");
+      $('.active-list-grid').css("color", "white");
+      
   }   
 });
 $(".active-list-grid").click(function(){
   if(clicked){
       $(this).css('background-color', 'white');
+      $(this).css('color', 'grey');
       clicked  = false;
       $('.active-list-grid-white').css("background-color", "rgb(097,206,014)");
+      $('.active-list-grid-white').css("color", "white");
   } else {
       $(this).css('background-color', 'rgb(097,206,014)');
+      $(this).css('color', 'white');
       clicked  = true;
       $('.active-list-grid-white').css("background-color", "white");
+      $('.active-list-grid-white').css("color", "grey");
   }   
 });

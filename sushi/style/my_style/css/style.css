@@ -12,7 +12,11 @@
 header{
     background: black;
     color: white;
-    height: 40px;
+    height: 50px;
+    padding-top: 6px;
+}
+.dropdown-menu{
+    top: 5px!important;
 }
 .search-form{
    position: relative;
@@ -133,7 +137,7 @@ header{
 }
 /* menu */
 .time-10-18{
-    font-size: 29px!important;
+    font-size: 20px!important;
 }
 
 .five-category-menu > ul > li a {
@@ -142,7 +146,7 @@ header{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    color:  rgb(097,206,014);
+    color:  black;
     text-decoration: none;
 }
 .five-category-menu > ul > li {
@@ -241,6 +245,10 @@ img {vertical-align: middle;}
     width: 40%;
     cursor: pointer;
 }
+
+#sea{
+    margin-right: 18px!important;
+}
 .item.list-group-item .thumbnail{
     margin-bottom: 0px;
     display: flex;
@@ -261,7 +269,7 @@ img {vertical-align: middle;}
     color: grey!important;
 }
 .card-body{
-    padding: 0.50rem!important;
+    padding: 0.40rem!important;
 }
 
 .item.list-group-item .caption .pruduct-pirce-button{
@@ -282,6 +290,10 @@ img {vertical-align: middle;}
     position: relative; 
     right: 0;
    
+}
+.price-c-button button {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
 }
 .item.list-group-item:before, .item.list-group-item:after{
     display: table;
@@ -363,8 +375,9 @@ img {vertical-align: middle;}
 
 .active-list-grid{
     background-color: rgb(097,206,014);
-    color: #7E8285;
+    color:white;
     font-weight: 500; 
+    
 }
 .active-list-grid-white{
     background-color: white;
@@ -372,7 +385,7 @@ img {vertical-align: middle;}
 }
 .shoping-product-num{
     position: absolute;
-    top: 20px;
+    top: 27px;
     font-size: 11px;
     font-weight: 700;
     background-color: white;
@@ -433,7 +446,7 @@ img {vertical-align: middle;}
 }
 .bakida-sushi h2, p{
     font-family: Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     
 
 }
@@ -486,9 +499,11 @@ label{
     height: 24px;
 }
 .modal-body-product{
-    background-color: #f6f6f6;
     width: 35%;  
     padding: 10px; 
+}
+.modal-header{
+    border-bottom: none!important;
 }
 .modal-body-img-p{
     width: 65%; 
@@ -611,7 +626,7 @@ label{
     transition: 0.5s!important;
 }
 .list-group-image:hover{
-    transform: scale(1)!important;
+    transform: scale(0.97)!important;
 }
 .check-true-green{
     height: 55px;
@@ -621,6 +636,8 @@ label{
 .list-group-item-heading{
     font-family: Arial, sans-serif;
     font-weight: 600;
+    margin-bottom: 4px;
+    margin-top: 5px;
 }
 .list-group-item-text{
     margin-top: 5px;
@@ -629,7 +646,7 @@ label{
     font-family:  Arial, sans-serif;
     font-weight: 300;
 }
-.price-c-button button , .call-do-that button , .all-day , .all-time , .phone-number-header , .href-link{
+.call-do-that button , .all-day , .all-time , .phone-number-header , .href-link{
     font-family: 'Comfortaa', cursive;
     font-weight: 700!important;
 }
@@ -668,7 +685,8 @@ label{
 .odeme-first{
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px 20px;
+    padding: 20px 50px;
+    border-radius: 6px;
     border: 2px solid #ebedec;
 }
 input[type='radio']:after {
@@ -753,11 +771,15 @@ input[type='radio']:checked:after {
   .wraps-sandiv{
       font-family: 'Roboto Slab', serif;
       font-size: 26px;
+      line-height: 45px;
   }
   sub ,sup , .suv{
       color: white!important;
       background-color: rgb(244, 129, 031);
       border-radius: 5px;
+  }
+  .d-inline:hover{
+     text-decoration: none!important;
   }
   .mobile-block{
       display: none;
@@ -773,7 +795,7 @@ input[type='radio']:checked:after {
     z-index: -1;
     position: absolute;
     content: "";
-    bottom: -2px;
+    bottom: -1px;
     left: 0px;
     width: 50%;
     top: 80%;
@@ -785,7 +807,7 @@ input[type='radio']:checked:after {
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
-    transform: rotate(-5deg);
+    transform: rotate(0deg);
   }
   .href-link span:after
   {
@@ -793,12 +815,17 @@ input[type='radio']:checked:after {
     -moz-transform: rotate(3deg);
     -o-transform: rotate(3deg);
     -ms-transform: rotate(3deg);
-    transform: rotate(5deg);
+    transform: rotate(0deg);
     right: 0px;
     left: auto;
   }
   .small-pors{
       color: rgb(244, 129, 031);
+      margin-bottom: 8px;
+      margin-top: 8px;
+  }
+  .card{
+      border-radius: 6px!important;
   }
 .sebte{
     width: 20px;
@@ -856,9 +883,15 @@ input[type='radio']:checked:after {
     font-family: 'Comfortaa', cursive;
     
   }
-  .mobile-price-sebet , .mobile-sebet-kalory{
-      display: none;
+  .mobile-price-sebet {
+    color: rgb(244, 129, 031);
+    font-weight: 500;
+    font-size: 20px;
   }
+  .mobile-sebet-kalory{
+    font-weight: 600;
+    font-size: 18px;
+}
 .sebet-title , .xardal-elave, .cart_product_name , .odeme-usel , .parol-title {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
@@ -866,4 +899,5 @@ input[type='radio']:checked:after {
 .modal-product-about{
     font-weight:500;
     font-family: 'Comfortaa', cursive;
+    margin-top: 10px;
 }
