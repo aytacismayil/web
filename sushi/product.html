@@ -26,6 +26,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+     <!-- fonts-->
+     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -46,7 +50,7 @@
                             src="./style/my_style/img/close.png" alt="">
                         <div id="salam-menu-hover" class="menu-mobile-hover animate__animated animate__fadeInLeft">
                             <ul class="nav ">
-                                <li class="nav-item pl-4 pr-2 mt-2">
+                                <li class="nav-item pl-4 pr-2 mt-2 pb-3">
                                     <form method="" action="" class="search-form">
                                         <input type="text" name="word" class="global-search" placeholder="Axtar...">
                                         <button type="submit" class="search-button"> <img class="ml-1 mr-1 icon-seach"
@@ -91,7 +95,7 @@
                                 
                                 <div class="mobile-line-opne"></div>
                                 <li class="nav-item">
-                                    <a class="nav-link text-uppercase" href="#">MENU</a>
+                                    <a class="nav-link text-uppercase" href="#">MENYU FAYLINI YÜKLƏ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-uppercase" href="#">ƏLAQƏ</a>
@@ -178,7 +182,7 @@
             </div>
         </div>
     </div>
-</header>
+   </header>
 
     <!-- header -->
     <div class="time-logo-section">
@@ -708,69 +712,75 @@
         </div>
     </div>
 
-    <!-- sebet modal -->
-    <div class="modal fade animate__animated  animate__zoomInDown" id="sebet" data-backdrop="static"
-        data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog  modal-dialog-centered modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-bod ">
-                    <div class="">
-                        <div class="asas">
-                            <div class="modal-body-img-p">
-                                <div class="modal-sebet-img-div">
-                                    <img src="./style/my_style/img/s3.png" alt="" class="modal-img">
-                                </div>
+   <!-- sebet modal -->
+   <div class="modal fade animate__animated  animate__zoomInDown" id="sebet" data-backdrop="static"
+   data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+   <div class="modal-dialog  modal-dialog-centered modal-xl">
+       <div class="modal-content">
+           <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+               </button>
+           </div>
+           <div class="modal-bod ">
+               <div class="">
+                   <div class="asas">
+                       <div class="modal-body-img-p">
+                           <div class="modal-sebet-img-div">
+                               <img src="./style/my_style/img/s3.png" alt="" class="modal-img">
+                           </div>
 
-                            </div>
-                            <div class=" modal-body-product">
-                                <div class="product-about-modal">
+                       </div>
+                       <div class=" modal-body-product">
+                           <div class="product-about-modal">
+                               
+                               <h4 class="modal-product-name">
+                                   Seth Philadelphia
+                               </h4>
+                               <p class="small-pors">
+                                  1,240 g 
+                                  <span class="five-part-line">|</span> 
+                                  5 hissə 
+                                  <span class="five-part-line">|</span> 
+                                  90 kkal
+                              </p>
+                              <p class="group inner list-group-item-text">
+                                  Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan ilə
+                                  Filadelfiya</p>
 
-                                    <h4 class="modal-product-name">
-                                        Seth Philadelphia
-                                    </h4>
-                                    <small class="small-pors">1,240 g | 5 hissə | 90 kkal</small>
-                                    <p class="modal-product-about">
-                                        Klassik Filadelfiya, Filadelfiya lüksü, Kyoto,Xiyar ilə Filadelfiya, yaşıl soğan
-                                        ilə Filadelfiya
-                                    </p>
-                                    <div class="price-cost">
-                                        <p class="lead cost-sale"> 21.00 AZN</p>
-                                        <p class=" lead ela ml-2 js-prce">19.00 AZN</p>
-                                    </div>
-                                    <div class="mehsulun-sayi-modal neew">
-                                        <div class="mehsul-sayi-title">
-                                            Məhsul sayı
-                                        </div>
-                                        <div class="modal-product-sayi-dicrise">
-                                            <button class="btn modal-decrese" id="increase" onclick="increaseValue()"
-                                                value="Increase Value">+</button>
+                               <div class="price-cost">
+                                   <p class="lead cost-sale"> 21.00 AZN</p>
+                                   <p class=" lead ela ml-2 js-prce">19.00 AZN</p>
+                               </div>
+                               <div class="mehsulun-sayi-modal neew">
+                                   <div class="mehsul-sayi-title">
+                                       Məhsul sayı
+                                   </div>
+                                   <div class="modal-product-sayi-dicrise">
+                                      <button class="btn modal-increse" id="decrease" onclick="decreaseValue()"
+                                      value="Decrease Value">–</button>
+                                       
 
-                                            <input class="modal-sayi" type="text" id="quantity" name="quantity"
-                                                value="1" />
-                                            <button class="btn modal-increse" id="decrease" onclick="decreaseValue()"
-                                                value="Decrease Value">—</button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-sebete-elave-et-div mt-2">
-                                        <button class="sebete-elave-et-m btn">
-                                            <img class="sebte fa-shopping-basket" src="./style/my_style/img/canta.png"
-                                                alt="">
-                                            Səbətə əlavə et
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                                       <input class="modal-sayi" type="text" id="quantity" name="quantity"
+                                           value="1" />
+                                           <button class="btn modal-decrese" id="increase" onclick="increaseValue()"
+                                           value="Increase Value">+</button>
+                                   </div>
+                               </div>
+                               <div class="modal-sebete-elave-et-div mt-2">
+                                   <button class="sebete-elave-et-m btn">
+                                       <img class="sebte fa-shopping-basket" src="./style/my_style/img/canta.png" alt="">   
+                                       Səbətə əlavə et
+                                   </button>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   </div>
 
 </body>
 

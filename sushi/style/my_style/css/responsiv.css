@@ -59,7 +59,7 @@
     width: 100%;
     padding: 4px 25px 4px 17px;
     border: 0;
-    border-radius: 1px; 
+    border-radius: 6px; 
     height: 33px;
    }
   .right-place a{
@@ -235,7 +235,7 @@
         display: none;
     }
     .sevdiyniz-terkb {
-        font-size: 15px;
+        font-size: 16px;
     }  
     /* .product-sebet{
         width: 120px;

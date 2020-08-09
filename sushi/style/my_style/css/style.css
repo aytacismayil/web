@@ -64,10 +64,12 @@ header{
 }
 .mobile-line-opne{
     border-bottom: 1px solid white;
-    margin: 20px 0;
+    margin: 25px 0;
+    margin-left: 30px;
+    margin-right: 13px;
 }
 .mobile-text-n{
-    font-family: Arial,sans-serif;
+    font-family: 'Barlow', sans-serif!important;
     font-weight: 500;
 }
 .left-place{
@@ -143,7 +145,7 @@ header{
 .five-category-menu > ul > li a {
     display: flex;
     padding: 15px 20px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
     color:  black;
@@ -292,7 +294,7 @@ img {vertical-align: middle;}
    
 }
 .price-c-button button {
-    font-family: Arial, sans-serif;
+    font-family: 'Barlow', sans-serif!important;
     font-size: 18px;
 }
 .item.list-group-item:before, .item.list-group-item:after{
@@ -353,7 +355,7 @@ img {vertical-align: middle;}
     transform: translate(0px, -6px);
     height: 2px;
     width: 21px;
-    background-color: black;
+    background-color: gray;
 }
 .product-sebet{
     background-color: rgb(097,206,014) !important;
@@ -444,11 +446,9 @@ img {vertical-align: middle;}
     
 
 }
-.bakida-sushi h2, p{
-    font-family: Arial, sans-serif;
+.bakida-sushi h2,.bakida-sushi p{
+    font-family: 'Barlow', sans-serif;
     font-weight: 400;
-    
-
 }
 /* zeng teleb et */
 label{
@@ -456,11 +456,10 @@ label{
     margin-bottom: 0!important;
 }
 .form-control:focus {
-    color: rgb(097,206,014)!important;
     background-color: #fff;
     border-color: #97f44c!important;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 0.2rem rgb(097,206,014);
 }
 #staticBackdropLabel{
    color: rgb(097,206,014);
@@ -530,6 +529,7 @@ label{
     width: 36px;
     background-color: rgb(244, 129, 031) !important;
     color: #fff !important;
+    
 }
 .modal-sayi{
     font-size: 20px;
@@ -539,10 +539,13 @@ label{
     text-align: center;
     border: none;
     margin: 0 4px;
+    font-family: 'Barlow', sans-serif;
     
 }
 .mehsul-sayi-title{
     font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
 }
 .modal-sebete-elave-et-div{
     width: 100%;
@@ -554,8 +557,11 @@ label{
     padding: 10px 10px;
     background-color: rgb(097,206,014) !important;
     color: #fff !important;
+    font-family: 'Barlow', sans-serif;
 }
-
+.cost-sale , .ela{
+    font-family: 'Barlow', sans-serif!important;
+}
 
   .cart_product_body {
     background: #ebedec;
@@ -634,7 +640,7 @@ label{
     border-radius: 50%;
 }
 .list-group-item-heading{
-    font-family: Arial, sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 600;
     margin-bottom: 4px;
     margin-top: 5px;
@@ -642,13 +648,16 @@ label{
 .list-group-item-text{
     margin-top: 5px;
 }
-.list-group-item-text , .small-pors , .cost-sale , .ela{
-    font-family:  Arial, sans-serif;
-    font-weight: 300;
+.list-group-item-text , .small-pors {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
 }
-.call-do-that button , .all-day , .all-time , .phone-number-header , .href-link{
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700!important;
+.call-do-that button , .all-day , .all-time , .phone-number-header , .global-search {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500!important;
+}
+.href-link span{
+    font-family: 'Oswald', sans-serif!important;
 }
 .price-c-button{
     position: relative;
@@ -761,15 +770,19 @@ input[type='radio']:checked:after {
     background-image: radial-gradient(circle at 10px -5px, transparent 12px, black 13px); 
   }
   .most-roll{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Barlow', sans-serif;
     font-weight: 600;
+  }
+  .active-list-grid , .active-list-grid-white{
+    font-family: 'Barlow', sans-serif!important;
   }
   .sevdiyniz-terkb{
       font-size: 30px;
       font-weight: 300;
+      font-family: 'Barlow', sans-serif;
   }
   .wraps-sandiv{
-      font-family: 'Roboto Slab', serif;
+    font-family: 'Ranchers', cursive;
       font-size: 26px;
       line-height: 45px;
   }
@@ -826,6 +839,9 @@ input[type='radio']:checked:after {
   }
   .card{
       border-radius: 6px!important;
+  }
+  .swal-button{
+      background-color: rgb(097,206,014)!important;
   }
 .sebte{
     width: 20px;
@@ -889,7 +905,7 @@ input[type='radio']:checked:after {
     font-size: 20px;
   }
   .mobile-sebet-kalory{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
 }
 .sebet-title , .xardal-elave, .cart_product_name , .odeme-usel , .parol-title {
@@ -898,6 +914,9 @@ input[type='radio']:checked:after {
 }
 .modal-product-about{
     font-weight:500;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Barlow', sans-serif;
     margin-top: 10px;
+}
+.modal-product-name{
+    font-family: 'Barlow', sans-serif;
 }

@@ -47,7 +47,7 @@ function showSlides() {
 function sweetAlert() {
   swal(
       'Uğurla göndərildi!',
-      'Click et!',
+      '',
       'success'
   )
 }
