@@ -812,7 +812,7 @@ input[type='radio']:checked:after {
     left: 0px;
     width: 50%;
     top: 80%;
-    background: #777;
+    background: black;
     -webkit-box-shadow: 0 15px 10px rgb(104, 92, 92);
     -moz-box-shadow: 0 5px 5px #777;
     box-shadow: 0 5px 10px #777!important;
@@ -820,7 +820,7 @@ input[type='radio']:checked:after {
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
-    transform: rotate(-1deg);
+    transform: rotate(-3deg);
   }
   .href-link span:after
   {
@@ -828,7 +828,7 @@ input[type='radio']:checked:after {
     -moz-transform: rotate(3deg);
     -o-transform: rotate(3deg);
     -ms-transform: rotate(3deg);
-    transform: rotate(1deg);
+    transform: rotate(3deg);
     right: 0px;
     left: auto;
   }
