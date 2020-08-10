@@ -821,13 +821,13 @@ input[type='radio']:checked:after {
     position: absolute;
     content: "";
     bottom: -1px;
-    left: -1px;
+    left: 0px;
     width: 50%;
     top: 80%;
     background: black;
     -webkit-box-shadow: 0 15px 10px black!important;
     -moz-box-shadow: 0 5px 5px black!important;
-    box-shadow: 0 5px 10px black!important;
+    box-shadow: 0 -1px 9px black!important;
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
@@ -841,7 +841,7 @@ input[type='radio']:checked:after {
     -o-transform: rotate(3deg);
     -ms-transform: rotate(3deg);
     transform: rotate(4deg);
-    right: -2px;
+    right: 0px;
     left: auto;
   }
   .small-pors{
