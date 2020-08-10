@@ -1,4 +1,3 @@
-
 .header-sushi{
     display: flex;
     justify-content: space-between;
@@ -57,10 +56,13 @@ header{
 .nav-link {
     font-size: 15px;
     padding: .5rem 2rem;
-    font-family: Arial,sans-serif;
+    font-family: 'Barlow', sans-serif!important;
 }
 .nav-link:hover , .bn:hover{
     text-decoration: underline!important;
+}
+.login-button{
+    font-family: 'Barlow', sans-serif!important;
 }
 .mobile-line-opne{
     border-bottom: 1px solid white;
@@ -71,6 +73,9 @@ header{
 .mobile-text-n{
     font-family: 'Barlow', sans-serif!important;
     font-weight: 500;
+}
+.qeydiyyat-email{
+    font-family: 'Barlow', sans-serif!important;
 }
 .left-place{
     display: flex;
@@ -457,6 +462,7 @@ img {vertical-align: middle;}
 label{
     color: rgb(244, 129, 031);
     margin-bottom: 0!important;
+    font-family: 'Barlow', sans-serif;
 }
 .form-control:focus {
     background-color: #fff;
@@ -506,6 +512,7 @@ label{
 }
 .modal-header{
     border-bottom: none!important;
+    font-family: 'Barlow', sans-serif;
 }
 .modal-body-img-p{
     width: 65%; 
@@ -673,11 +680,12 @@ label{
     line-height: 30px;
 }
 .link-foot , .footer-copyright , .vakansiya{
-    font-family:  Arial, sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
 .odeme-usullari-promo label ,.odeme-usullari-all label{
     color: black!important;
+    font-family: 'Barlow', sans-serif;
     font-weight: 500;
 }
 
@@ -812,18 +820,18 @@ input[type='radio']:checked:after {
     position: absolute;
     content: "";
     bottom: -1px;
-    left: 0px;
+    left: -1px;
     width: 50%;
     top: 80%;
     background: black;
-    -webkit-box-shadow: 0 15px 10px rgb(104, 92, 92);
-    -moz-box-shadow: 0 5px 5px #777;
-    box-shadow: 0 5px 10px #777!important;
+    -webkit-box-shadow: 0 15px 10px black!important;
+    -moz-box-shadow: 0 5px 5px black!important;
+    box-shadow: 0 5px 10px black!important;
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
-    transform: rotate(-3deg);
+    transform: rotate(-4deg);
   }
   .href-link span:after
   {
@@ -831,8 +839,8 @@ input[type='radio']:checked:after {
     -moz-transform: rotate(3deg);
     -o-transform: rotate(3deg);
     -ms-transform: rotate(3deg);
-    transform: rotate(3deg);
-    right: 0px;
+    transform: rotate(4deg);
+    right: -2px;
     left: auto;
   }
   .small-pors{
@@ -906,14 +914,18 @@ input[type='radio']:checked:after {
     color: rgb(244, 129, 031);
     font-weight: 500;
     font-size: 20px;
+    
   }
   .mobile-sebet-kalory{
     font-weight: 400;
     font-size: 18px;
 }
 .sebet-title , .xardal-elave, .cart_product_name , .odeme-usel , .parol-title {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 700;
+}
+.cart_product_size , .cost_picker{
+    font-family: 'Barlow', sans-serif;
 }
 .modal-product-about{
     font-weight:500;
