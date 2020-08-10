@@ -56,7 +56,8 @@ header{
 .nav-link {
     font-size: 15px;
     padding: .5rem 2rem;
-    font-family: 'Barlow', sans-serif!important;
+    
+    
 }
 .nav-link:hover , .bn:hover{
     text-decoration: underline!important;
