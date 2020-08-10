@@ -374,7 +374,10 @@ img {vertical-align: middle;}
     margin-bottom: 0;
     line-height: 32px;
 }
-
+.active-list-grid:focus , .active-list-grid-white:focus{
+   outline: none;
+   box-shadow: none;
+}
 .active-list-grid{
     background-color: rgb(097,206,014);
     color:white;

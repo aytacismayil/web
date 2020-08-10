@@ -182,6 +182,9 @@
     .cps{
         display: block;
     }
+    .small-pors , .sevdiyniz-terkb{
+        display: none;
+    }
     .card-mobile-name{
         margin-left: 30px;
     }
