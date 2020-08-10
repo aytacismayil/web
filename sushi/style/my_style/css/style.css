@@ -825,9 +825,9 @@ input[type='radio']:checked:after {
     width: 50%;
     top: 80%;
     background: black;
-    -webkit-box-shadow: 0 15px 10px black!important;
+    -webkit-box-shadow: 0 0px 10px black!important;
     -moz-box-shadow: 0 5px 5px black!important;
-    box-shadow: 0 -1px 9px black!important;
+    box-shadow: 0 0px 10px black;
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
